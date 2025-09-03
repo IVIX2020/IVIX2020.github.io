@@ -23,7 +23,9 @@ jobs:
           fetch-depth: 0
       - uses: actions/setup-node@v4
         with:
-          node-version: '20'
+          node-version: '22'      # ★ Node 22 系に
+          check-latest: true
+      - run: npm i -g npm@latest  # ★ npm も 10.9.2+ に
       - run: npm ci || npm install
       - run: npx quartz build
       - uses: actions/upload-pages-artifact@v3
