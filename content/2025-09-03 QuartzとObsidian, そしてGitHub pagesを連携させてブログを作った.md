@@ -49,3 +49,5 @@ description: QuartzとObsidian、そしてGitHub Pagesを組み合わせて、�
 - これからは日々の学びや記録を **Obsidian → Quartz → GitHub Pages** のルートで公開していきたい。  
 
 「自分のノートがそのまま公開ブログになる」という感覚は、想像以上に気持ちがいいものでした。  
+
+![[2025-09-03 how did church mode shift to chord music]]
