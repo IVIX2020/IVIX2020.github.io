@@ -1,0 +1,1 @@
+ - this is my personal blog powered by obsidian / quartz / gitHub Pages.
