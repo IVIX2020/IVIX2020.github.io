@@ -2,7 +2,21 @@
 title: "The Revolution We Never Left: How a 10,000-Year-Old Decision Still Dictates the Modern World"
 type: blog
 date: 2025-10-17
-tags: [history, society, agriculture, technology]
+description: "Explore how the 10,000-year-old Agricultural Revolution irreversibly rewrote humanity's 'source code,' dictating modern socio-economic strata, global dependencies, and geopolitical inequalities. Examines the tyranny of the 'Big Three' crops, the decisive advantage of early adopters, and questions how we update this ancient operating system for a complex, interconnected world."
+tags:
+  - history
+  - history/ancient
+  - sociology
+  - sociology/social-structure
+  - economics
+  - economics/global
+  - anthropology
+  - agriculture
+  - human-evolution
+  - meta-thinking
+  - global-inequality
+  - agricultural-revolution
+slug: the-revolution-we-never-left
 related:
 ---
 
