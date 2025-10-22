@@ -27,13 +27,6 @@ export const defaultContentPageLayout: PageLayout = {
   ],
   left: [
     Component.PageTitle(),
-    Component.MobileOnly(Component.Spacer()),
-    Component.Explorer(),
-  ],
-  right: [
-    //Component.Graph(),
-    //Component.DesktopOnly(Component.TableOfContents()),
-    //Component.Backlinks(),
     Component.Flex({
       components: [
         {
@@ -44,6 +37,22 @@ export const defaultContentPageLayout: PageLayout = {
         { Component: Component.ReaderMode() },
       ],
     }),
+    Component.MobileOnly(Component.Spacer()),
+    //Component.Explorer(),
+    Component.Explorer({
+      filterFn: (f) => !f.slug!.startsWith("_"), // 既存フィルター（例）
+      sortFn: (a, b) => {
+        // 新しい記事順にソート（更新日時の降順）
+        return (b.dates?.modified ?? b.dates?.created ?? 0) -
+               (a.dates?.modified ?? a.dates?.created ?? 0)
+      },
+    }),    
+  ],
+  right: [
+    //Component.Graph(),
+    //Component.DesktopOnly(Component.TableOfContents()),
+    //Component.Backlinks(),
+    
   ],
 }
 

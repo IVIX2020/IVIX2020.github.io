@@ -1,10 +1,17 @@
 ---
-title: 2025-09-03 QuartzとObsidian, そしてGitHub Pagesを連携させてブログを作った
-createdAt: 2025-09-03
+title: QuartzとObsidian、GitHub Pages連携で無料ブログを構築した記録
+date: 2025-09-03
+description: "Obsidianで管理するノートをQuartzとGitHub Pagesを連携させ、完全無料でブログとして公開するまでの手順と、そのメリット・課題を解説。知識管理とブログの一元化を実現する。"
 tags:
-  - blog
-  - daily
-description: QuartzとObsidian、そしてGitHub Pagesを組み合わせて、自分だけの無料ブログを立ち上げた記録。
+  - knowledge-management
+  - knowledge-management/obsidian
+  - web-development
+  - web-development/blogging
+  - web-development/github-pages
+  - quartz
+  - productivity
+  - free-tools
+slug: quartz-obsidian-github-pages-blog
 ---
 
 ## はじめに
