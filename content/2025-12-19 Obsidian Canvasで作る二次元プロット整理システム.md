@@ -16,7 +16,7 @@ Obsidian Canvasを使って、物語の時間軸を二次元的に表現した�
 
 最終イメージのスクショはこんな感じ。
 
-![](https://storage.googleapis.com/zenn-user-upload/7b04ada69c11-20251217.png)
+![[実際のフロー図_コメントなし.excalidraw 1.png]]
 
 もう少し見やすく図にすると...
 
