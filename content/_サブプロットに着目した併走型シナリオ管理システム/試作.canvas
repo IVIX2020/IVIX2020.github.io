@@ -11,7 +11,7 @@
 			"height":400,
 			"color":"5"
 		},
-		{"id":"2306e54aa6121707","type":"file","file":"05_Publish/Blogs/サブプロットに着目した併走型シナリオ管理システム/メインエリア/提示の提示 1.md","x":-100,"y":780,"width":400,"height":400},
+		{"id":"2306e54aa6121707","type":"file","file":"05_Publish/Blogs/_サブプロットに着目した併走型シナリオ管理システム/メインエリア/提示の提示 1.md","x":-100,"y":780,"width":400,"height":400},
 		{
 			"id":"3a619581f79cc4d3",
 			"type":"text",
@@ -23,7 +23,7 @@
 			"height":860,
 			"color":"3"
 		},
-		{"id":"4f5458abcff07a11","type":"file","file":"05_Publish/Blogs/サブプロットに着目した併走型シナリオ管理システム/メインエリア/提示の提示 1 1.md","x":-100,"y":1240,"width":400,"height":400},
+		{"id":"4f5458abcff07a11","type":"file","file":"05_Publish/Blogs/_サブプロットに着目した併走型シナリオ管理システム/メインエリア/提示の提示 1 1.md","x":-100,"y":1240,"width":400,"height":400},
 		{
 			"id":"87b77d0785027c13",
 			"type":"text",
@@ -80,11 +80,11 @@
 			"height":400,
 			"color":"6"
 		},
-		{"id":"9a6dfa07cf3a581f","type":"file","file":"05_Publish/Blogs/サブプロットに着目した併走型シナリオ管理システム/メインエリア/提示の提示.md","x":-100,"y":320,"width":400,"height":400},
-		{"id":"498cf3e80dfa4b62","type":"file","file":"05_Publish/Blogs/サブプロットに着目した併走型シナリオ管理システム/メインプロット.md","x":1740,"y":-140,"width":260,"height":400},
-		{"id":"856eba8fc291b2f1","type":"file","file":"05_Publish/Blogs/サブプロットに着目した併走型シナリオ管理システム/サブプロット A.md","x":2060,"y":-140,"width":260,"height":400},
-		{"id":"2db66f53426da034","type":"file","file":"05_Publish/Blogs/サブプロットに着目した併走型シナリオ管理システム/サブプロット B.md","x":2380,"y":-140,"width":260,"height":400},
-		{"id":"b46a42a1767514ea","type":"file","file":"05_Publish/Blogs/サブプロットに着目した併走型シナリオ管理システム/サブプロット C.md","x":2700,"y":-140,"width":260,"height":400},
+		{"id":"9a6dfa07cf3a581f","type":"file","file":"05_Publish/Blogs/_サブプロットに着目した併走型シナリオ管理システム/メインエリア/提示の提示.md","x":-100,"y":320,"width":400,"height":400},
+		{"id":"498cf3e80dfa4b62","type":"file","file":"05_Publish/Blogs/_サブプロットに着目した併走型シナリオ管理システム/メインプロット.md","x":1740,"y":-140,"width":260,"height":400},
+		{"id":"856eba8fc291b2f1","type":"file","file":"05_Publish/Blogs/_サブプロットに着目した併走型シナリオ管理システム/サブプロット A.md","x":2060,"y":-140,"width":260,"height":400},
+		{"id":"2db66f53426da034","type":"file","file":"05_Publish/Blogs/_サブプロットに着目した併走型シナリオ管理システム/サブプロット B.md","x":2380,"y":-140,"width":260,"height":400},
+		{"id":"b46a42a1767514ea","type":"file","file":"05_Publish/Blogs/_サブプロットに着目した併走型シナリオ管理システム/サブプロット C.md","x":2700,"y":-140,"width":260,"height":400},
 		{
 			"id":"f4a22c6071cb0434",
 			"type":"text",
