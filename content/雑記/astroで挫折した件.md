@@ -1,13 +1,10 @@
 ---
 title: astroで挫折した件
-date: 2025-11-28
+date: 2026-1-2
 description: 「語彙力」って、単なる知識の量だと思ってませんか？もし言葉が僕らの思考や世界認識を根本から規定しているとしたら？言語が持つ「ヤバい真実」を、サピア＝ウォーフ仮説から深掘りします。
 tags:
-  - language
-  - psychology
-  - philosophy
-  - self-improvement
-slug: vocabulary-world-resolution
+  - astro
+  - blog
 ---
 astroは静的なサイトを構築するためのフレームワークだ。
 GitHub Pagesを利用してページを公開しようと奮闘した結果見事玉砕したので記録したい。
