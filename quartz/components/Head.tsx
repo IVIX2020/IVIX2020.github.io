@@ -79,7 +79,7 @@ export default (() => {
           <>
             <meta property="twitter:domain" content={cfg.baseUrl}></meta>
             <meta property="og:url" content={socialUrlEncoded}></meta>
-            <meta property="twitter:url" content={socialUrlEncoded}></meta>
+            <meta name="twitter:url" content={socialUrlEncoded}></meta>
           </>
         )}
 
