@@ -1,8 +1,0 @@
-views:
-  - type: cards
-    name: Cards
-    filters:
-      and:
-        - file.folder.startsWith("x/_literature_notes")
-    cardSize: 150
-    image: note.image

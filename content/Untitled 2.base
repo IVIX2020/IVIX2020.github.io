@@ -1,7 +1,0 @@
-filters:
-  and:
-    - '!file.name.contains("template")'
-    - categories.contains(link("Workflows"))
-views:
-  - type: table
-    name: Table

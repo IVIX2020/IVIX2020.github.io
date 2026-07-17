@@ -1,5 +1,0 @@
----
-type: inbox
-tags:
-related:
----
