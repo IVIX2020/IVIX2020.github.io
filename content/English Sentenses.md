@@ -1,0 +1,2 @@
+ - I'm Christian, but I agree with Ken here. I think **proselytizing** to strangers on the street is incredibly obnoxious, it disrupts the peace, and it only makes people hate Christianity. Those guys give Christianity a bad look.
+ - But pushing your beliefs upon others as a guest in another country is wrong ("when in Rome...").

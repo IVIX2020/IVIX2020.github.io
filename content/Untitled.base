@@ -1,0 +1,14 @@
+filters:
+  and:
+    - categories == "Movies"
+views:
+  - type: cards
+    name: Table
+    order:
+      - file.name
+      - cast
+      - cover
+      - rating
+      - director
+      - genre
+      - year
