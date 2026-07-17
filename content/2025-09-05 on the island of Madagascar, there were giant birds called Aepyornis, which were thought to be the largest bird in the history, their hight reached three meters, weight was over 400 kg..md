@@ -1,0 +1,10 @@
+---
+type: inbox
+tags:
+  - histology
+  - zoology/paleontology
+related:
+---
+![[越境と冒険の人類史：宇宙を目指すことを宿命づけられた人類の物語#^1fb04f]]
+
+![[2025-10-08 we human can destroyed some survived dinosaurs in the history before knowing]]

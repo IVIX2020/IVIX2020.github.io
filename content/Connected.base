@@ -1,0 +1,18 @@
+formulas:
+  linked file: (file.links.length) + (file.backlinks.length)
+properties:
+  formula.linked file:
+    displayName: linked count
+views:
+  - type: table
+    name: Table
+    filters:
+      and:
+        - formula["linked file"] > 0
+        - file.folder == "ATLAS/00_inbox"
+    order:
+      - file.name
+      - formula.linked file
+    sort:
+      - property: formula.linked file
+        direction: DESC

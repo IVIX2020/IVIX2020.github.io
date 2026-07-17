@@ -1,0 +1,923 @@
+<!DOCTYPE html>
+<html lang="ja"><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><meta property="og:locale" content="ja_JP"/><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><title>一冊でわかるイギリス史</title><link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com"/><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Zen Kaku Gothic New:wght@400;700&amp;family=Noto Sans JP:ital,wght@0,400;0,600;1,400;1,600&amp;family=IBM Plex Mono:wght@400;600&amp;display=swap"/><link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin="anonymous"/><meta property="og:site_name" content="1610's blog"/><meta property="og:title" content="一冊でわかるイギリス史"/><meta property="og:type" content="website"/><meta name="twitter:card" content="summary_large_image"/><meta name="twitter:title" content="一冊でわかるイギリス史"/><meta name="twitter:description" content="一冊でわかるイギリス史 それでも旧領地をあきらめきれないジョン王は、戦費を調達する目.."/><meta property="og:description" content="一冊でわかるイギリス史 それでも旧領地をあきらめきれないジョン王は、戦費を調達する目.."/><meta property="og:image:alt" content="一冊でわかるイギリス史 それでも旧領地をあきらめきれないジョン王は、戦費を調達する目.."/><meta property="og:image" content="https://ivix2020.github.io/static/og-image.png"/><meta property="og:image:url" content="https://ivix2020.github.io/static/og-image.png"/><meta name="twitter:image" content="https://ivix2020.github.io/static/og-image.png"/><meta property="og:image:type" content="image/.png"/><meta property="twitter:domain" content="ivix2020.github.io"/><meta property="og:url" content="https://ivix2020.github.io/%E4%B8%80%E5%86%8A%E3%81%A7%E3%82%8F%E3%81%8B%E3%82%8B%E3%82%A4%E3%82%AE%E3%83%AA%E3%82%B9%E5%8F%B2"/><meta name="twitter:url" content="https://ivix2020.github.io/%E4%B8%80%E5%86%8A%E3%81%A7%E3%82%8F%E3%81%8B%E3%82%8B%E3%82%A4%E3%82%AE%E3%83%AA%E3%82%B9%E5%8F%B2"/><link rel="icon" href="./static/icon.png"/><meta name="description" content="一冊でわかるイギリス史 それでも旧領地をあきらめきれないジョン王は、戦費を調達する目.."/><meta name="generator" content="Quartz"/><link href="./index.css" rel="stylesheet" type="text/css" spa-preserve/><style>.expand-button {
+  position: absolute;
+  display: flex;
+  float: right;
+  padding: 0.4rem;
+  margin: 0.3rem;
+  right: 0;
+  color: var(--gray);
+  border-color: var(--dark);
+  background-color: var(--light);
+  border: 1px solid;
+  border-radius: 5px;
+  opacity: 0;
+  transition: 0.2s;
+}
+.expand-button > svg {
+  fill: var(--light);
+  filter: contrast(0.3);
+}
+.expand-button:hover {
+  cursor: pointer;
+  border-color: var(--secondary);
+}
+.expand-button:focus {
+  outline: 0;
+}
+
+pre:hover > .expand-button {
+  opacity: 1;
+  transition: 0.2s;
+}
+
+#mermaid-container {
+  position: fixed;
+  contain: layout;
+  z-index: 999;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  display: none;
+  backdrop-filter: blur(4px);
+  background: rgba(0, 0, 0, 0.5);
+}
+#mermaid-container.active {
+  display: inline-block;
+}
+#mermaid-container > #mermaid-space {
+  border: 1px solid var(--lightgray);
+  background-color: var(--light);
+  border-radius: 5px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 80vh;
+  width: 80vw;
+  overflow: hidden;
+}
+#mermaid-container > #mermaid-space > .mermaid-content {
+  padding: 2rem;
+  position: relative;
+  transform-origin: 0 0;
+  transition: transform 0.1s ease;
+  overflow: visible;
+  min-height: 200px;
+  min-width: 200px;
+}
+#mermaid-container > #mermaid-space > .mermaid-content pre {
+  margin: 0;
+  border: none;
+}
+#mermaid-container > #mermaid-space > .mermaid-content svg {
+  max-width: none;
+  height: auto;
+}
+#mermaid-container > #mermaid-space > .mermaid-controls {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  display: flex;
+  gap: 8px;
+  padding: 8px;
+  background: var(--light);
+  border: 1px solid var(--lightgray);
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 2;
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  border: 1px solid var(--lightgray);
+  background: var(--light);
+  color: var(--dark);
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  font-family: var(--bodyFont);
+  transition: all 0.2s ease;
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button:hover {
+  background: var(--lightgray);
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button:active {
+  transform: translateY(1px);
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button:nth-child(2) {
+  width: auto;
+  padding: 0 12px;
+  font-size: 14px;
+}
+/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VSb290IjoiL1VzZXJzL2l2aXgvTGlicmFyeS9Nb2JpbGUgRG9jdW1lbnRzL2lDbG91ZH5tZH5vYnNpZGlhbi9Eb2N1bWVudHMvcXVhcnR6L3F1YXJ0ei9jb21wb25lbnRzL3N0eWxlcyIsInNvdXJjZXMiOlsibWVybWFpZC5pbmxpbmUuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNFO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBOztBQUVBO0VBQ0U7RUFDQTs7QUFHRjtFQUNFO0VBQ0E7O0FBR0Y7RUFDRTs7O0FBS0Y7RUFDRTtFQUNBOzs7QUFJSjtFQUNFO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7O0FBRUE7RUFDRTs7QUFHRjtFQUNFO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBOztBQUVBO0VBQ0U7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7O0FBRUE7RUFDRTtFQUNBOztBQUdGO0VBQ0U7RUFDQTs7QUFJSjtFQUNFO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7O0FBRUE7RUFDRTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBOztBQUVBO0VBQ0U7O0FBR0Y7RUFDRTs7QUFJRjtFQUNFO0VBQ0E7RUFDQSIsInNvdXJjZXNDb250ZW50IjpbIi5leHBhbmQtYnV0dG9uIHtcbiAgcG9zaXRpb246IGFic29sdXRlO1xuICBkaXNwbGF5OiBmbGV4O1xuICBmbG9hdDogcmlnaHQ7XG4gIHBhZGRpbmc6IDAuNHJlbTtcbiAgbWFyZ2luOiAwLjNyZW07XG4gIHJpZ2h0OiAwOyAvLyBOT1RFOiByaWdodCB3aWxsIGJlIHNldCBpbiBtZXJtYWlkLmlubGluZS50c1xuICBjb2xvcjogdmFyKC0tZ3JheSk7XG4gIGJvcmRlci1jb2xvcjogdmFyKC0tZGFyayk7XG4gIGJhY2tncm91bmQtY29sb3I6IHZhcigtLWxpZ2h0KTtcbiAgYm9yZGVyOiAxcHggc29saWQ7XG4gIGJvcmRlci1yYWRpdXM6IDVweDtcbiAgb3BhY2l0eTogMDtcbiAgdHJhbnNpdGlvbjogMC4ycztcblxuICAmID4gc3ZnIHtcbiAgICBmaWxsOiB2YXIoLS1saWdodCk7XG4gICAgZmlsdGVyOiBjb250cmFzdCgwLjMpO1xuICB9XG5cbiAgJjpob3ZlciB7XG4gICAgY3Vyc29yOiBwb2ludGVyO1xuICAgIGJvcmRlci1jb2xvcjogdmFyKC0tc2Vjb25kYXJ5KTtcbiAgfVxuXG4gICY6Zm9jdXMge1xuICAgIG91dGxpbmU6IDA7XG4gIH1cbn1cblxucHJlIHtcbiAgJjpob3ZlciA+IC5leHBhbmQtYnV0dG9uIHtcbiAgICBvcGFjaXR5OiAxO1xuICAgIHRyYW5zaXRpb246IDAuMnM7XG4gIH1cbn1cblxuI21lcm1haWQtY29udGFpbmVyIHtcbiAgcG9zaXRpb246IGZpeGVkO1xuICBjb250YWluOiBsYXlvdXQ7XG4gIHotaW5kZXg6IDk5OTtcbiAgbGVmdDogMDtcbiAgdG9wOiAwO1xuICB3aWR0aDogMTAwdnc7XG4gIGhlaWdodDogMTAwdmg7XG4gIG92ZXJmbG93OiBoaWRkZW47XG4gIGRpc3BsYXk6IG5vbmU7XG4gIGJhY2tkcm9wLWZpbHRlcjogYmx1cig0cHgpO1xuICBiYWNrZ3JvdW5kOiByZ2JhKDAsIDAsIDAsIDAuNSk7XG5cbiAgJi5hY3RpdmUge1xuICAgIGRpc3BsYXk6IGlubGluZS1ibG9jaztcbiAgfVxuXG4gICYgPiAjbWVybWFpZC1zcGFjZSB7XG4gICAgYm9yZGVyOiAxcHggc29saWQgdmFyKC0tbGlnaHRncmF5KTtcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiB2YXIoLS1saWdodCk7XG4gICAgYm9yZGVyLXJhZGl1czogNXB4O1xuICAgIHBvc2l0aW9uOiBmaXhlZDtcbiAgICB0b3A6IDUwJTtcbiAgICBsZWZ0OiA1MCU7XG4gICAgdHJhbnNmb3JtOiB0cmFuc2xhdGUoLTUwJSwgLTUwJSk7XG4gICAgaGVpZ2h0OiA4MHZoO1xuICAgIHdpZHRoOiA4MHZ3O1xuICAgIG92ZXJmbG93OiBoaWRkZW47XG5cbiAgICAmID4gLm1lcm1haWQtY29udGVudCB7XG4gICAgICBwYWRkaW5nOiAycmVtO1xuICAgICAgcG9zaXRpb246IHJlbGF0aXZlO1xuICAgICAgdHJhbnNmb3JtLW9yaWdpbjogMCAwO1xuICAgICAgdHJhbnNpdGlvbjogdHJhbnNmb3JtIDAuMXMgZWFzZTtcbiAgICAgIG92ZXJmbG93OiB2aXNpYmxlO1xuICAgICAgbWluLWhlaWdodDogMjAwcHg7XG4gICAgICBtaW4td2lkdGg6IDIwMHB4O1xuXG4gICAgICBwcmUge1xuICAgICAgICBtYXJnaW46IDA7XG4gICAgICAgIGJvcmRlcjogbm9uZTtcbiAgICAgIH1cblxuICAgICAgc3ZnIHtcbiAgICAgICAgbWF4LXdpZHRoOiBub25lO1xuICAgICAgICBoZWlnaHQ6IGF1dG87XG4gICAgICB9XG4gICAgfVxuXG4gICAgJiA+IC5tZXJtYWlkLWNvbnRyb2xzIHtcbiAgICAgIHBvc2l0aW9uOiBhYnNvbHV0ZTtcbiAgICAgIGJvdHRvbTogMjBweDtcbiAgICAgIHJpZ2h0OiAyMHB4O1xuICAgICAgZGlzcGxheTogZmxleDtcbiAgICAgIGdhcDogOHB4O1xuICAgICAgcGFkZGluZzogOHB4O1xuICAgICAgYmFja2dyb3VuZDogdmFyKC0tbGlnaHQpO1xuICAgICAgYm9yZGVyOiAxcHggc29saWQgdmFyKC0tbGlnaHRncmF5KTtcbiAgICAgIGJvcmRlci1yYWRpdXM6IDZweDtcbiAgICAgIGJveC1zaGFkb3c6IDAgMnB4IDRweCByZ2JhKDAsIDAsIDAsIDAuMSk7XG4gICAgICB6LWluZGV4OiAyO1xuXG4gICAgICAubWVybWFpZC1jb250cm9sLWJ1dHRvbiB7XG4gICAgICAgIGRpc3BsYXk6IGZsZXg7XG4gICAgICAgIGFsaWduLWl0ZW1zOiBjZW50ZXI7XG4gICAgICAgIGp1c3RpZnktY29udGVudDogY2VudGVyO1xuICAgICAgICB3aWR0aDogMzJweDtcbiAgICAgICAgaGVpZ2h0OiAzMnB4O1xuICAgICAgICBwYWRkaW5nOiAwO1xuICAgICAgICBib3JkZXI6IDFweCBzb2xpZCB2YXIoLS1saWdodGdyYXkpO1xuICAgICAgICBiYWNrZ3JvdW5kOiB2YXIoLS1saWdodCk7XG4gICAgICAgIGNvbG9yOiB2YXIoLS1kYXJrKTtcbiAgICAgICAgYm9yZGVyLXJhZGl1czogNHB4O1xuICAgICAgICBjdXJzb3I6IHBvaW50ZXI7XG4gICAgICAgIGZvbnQtc2l6ZTogMTZweDtcbiAgICAgICAgZm9udC1mYW1pbHk6IHZhcigtLWJvZHlGb250KTtcbiAgICAgICAgdHJhbnNpdGlvbjogYWxsIDAuMnMgZWFzZTtcblxuICAgICAgICAmOmhvdmVyIHtcbiAgICAgICAgICBiYWNrZ3JvdW5kOiB2YXIoLS1saWdodGdyYXkpO1xuICAgICAgICB9XG5cbiAgICAgICAgJjphY3RpdmUge1xuICAgICAgICAgIHRyYW5zZm9ybTogdHJhbnNsYXRlWSgxcHgpO1xuICAgICAgICB9XG5cbiAgICAgICAgLy8gU3R5bGUgdGhlIHJlc2V0IGJ1dHRvbiBkaWZmZXJlbnRseVxuICAgICAgICAmOm50aC1jaGlsZCgyKSB7XG4gICAgICAgICAgd2lkdGg6IGF1dG87XG4gICAgICAgICAgcGFkZGluZzogMCAxMnB4O1xuICAgICAgICAgIGZvbnQtc2l6ZTogMTRweDtcbiAgICAgICAgfVxuICAgICAgfVxuICAgIH1cbiAgfVxufVxuIl19 */</style><link href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" rel="stylesheet" type="text/css" spa-preserve/><script src="./prescript.js" type="application/javascript" spa-preserve></script><script type="application/javascript" spa-preserve>const fetchData = fetch("./static/contentIndex.json").then(data => data.json())</script><link rel="alternate" type="application/rss+xml" title="RSS Feed" href="https://ivix2020.github.io/index.xml"/></head><body data-slug="一冊でわかるイギリス史"><div id="quartz-root" class="page"><div id="quartz-body"><div class="left sidebar"><h2 class="page-title"><a href=".">1610's blog</a></h2><div class="flex-component" style="flex-direction: row; flex-wrap: nowrap; gap: 1rem;"><div style="flex-grow: 1; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><div class="search"><button class="search-button"><p>検索</p><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.9 19.7"><title>Search</title><g class="search-path" fill="none"><path stroke-linecap="square" d="M18.5 18.3l-5.4-5.4"></path><circle cx="8" cy="8" r="7"></circle></g></svg></button><div class="search-container"><div class="search-space"><input autocomplete="off" class="search-bar" name="search" type="text" aria-label="検索ワードを入力" placeholder="検索ワードを入力"/><div class="search-layout" data-preview="true"></div></div></div></div></div><div style="flex-grow: 0; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><button class="darkmode"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="dayIcon" x="0px" y="0px" viewBox="0 0 35 35" style="enable-background:new 0 0 35 35" xml:space="preserve" aria-label="ダークモード"><title>ダークモード</title><path d="M6,17.5C6,16.672,5.328,16,4.5,16h-3C0.672,16,0,16.672,0,17.5    S0.672,19,1.5,19h3C5.328,19,6,18.328,6,17.5z M7.5,26c-0.414,0-0.789,0.168-1.061,0.439l-2,2C4.168,28.711,4,29.086,4,29.5    C4,30.328,4.671,31,5.5,31c0.414,0,0.789-0.168,1.06-0.44l2-2C8.832,28.289,9,27.914,9,27.5C9,26.672,8.329,26,7.5,26z M17.5,6    C18.329,6,19,5.328,19,4.5v-3C19,0.672,18.329,0,17.5,0S16,0.672,16,1.5v3C16,5.328,16.671,6,17.5,6z M27.5,9    c0.414,0,0.789-0.168,1.06-0.439l2-2C30.832,6.289,31,5.914,31,5.5C31,4.672,30.329,4,29.5,4c-0.414,0-0.789,0.168-1.061,0.44    l-2,2C26.168,6.711,26,7.086,26,7.5C26,8.328,26.671,9,27.5,9z M6.439,8.561C6.711,8.832,7.086,9,7.5,9C8.328,9,9,8.328,9,7.5    c0-0.414-0.168-0.789-0.439-1.061l-2-2C6.289,4.168,5.914,4,5.5,4C4.672,4,4,4.672,4,5.5c0,0.414,0.168,0.789,0.439,1.06    L6.439,8.561z M33.5,16h-3c-0.828,0-1.5,0.672-1.5,1.5s0.672,1.5,1.5,1.5h3c0.828,0,1.5-0.672,1.5-1.5S34.328,16,33.5,16z     M28.561,26.439C28.289,26.168,27.914,26,27.5,26c-0.828,0-1.5,0.672-1.5,1.5c0,0.414,0.168,0.789,0.439,1.06l2,2    C28.711,30.832,29.086,31,29.5,31c0.828,0,1.5-0.672,1.5-1.5c0-0.414-0.168-0.789-0.439-1.061L28.561,26.439z M17.5,29    c-0.829,0-1.5,0.672-1.5,1.5v3c0,0.828,0.671,1.5,1.5,1.5s1.5-0.672,1.5-1.5v-3C19,29.672,18.329,29,17.5,29z M17.5,7    C11.71,7,7,11.71,7,17.5S11.71,28,17.5,28S28,23.29,28,17.5S23.29,7,17.5,7z M17.5,25c-4.136,0-7.5-3.364-7.5-7.5    c0-4.136,3.364-7.5,7.5-7.5c4.136,0,7.5,3.364,7.5,7.5C25,21.636,21.636,25,17.5,25z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="nightIcon" x="0px" y="0px" viewBox="0 0 100 100" style="enable-background:new 0 0 100 100" xml:space="preserve" aria-label="ライトモード"><title>ライトモード</title><path d="M96.76,66.458c-0.853-0.852-2.15-1.064-3.23-0.534c-6.063,2.991-12.858,4.571-19.655,4.571  C62.022,70.495,50.88,65.88,42.5,57.5C29.043,44.043,25.658,23.536,34.076,6.47c0.532-1.08,0.318-2.379-0.534-3.23  c-0.851-0.852-2.15-1.064-3.23-0.534c-4.918,2.427-9.375,5.619-13.246,9.491c-9.447,9.447-14.65,22.008-14.65,35.369  c0,13.36,5.203,25.921,14.65,35.368s22.008,14.65,35.368,14.65c13.361,0,25.921-5.203,35.369-14.65  c3.872-3.871,7.064-8.328,9.491-13.246C97.826,68.608,97.611,67.309,96.76,66.458z"></path></svg></button></div><div style="flex-grow: 0; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><button class="readermode"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="readerIcon" fill="currentColor" stroke="currentColor" stroke-width="0.2" stroke-linecap="round" stroke-linejoin="round" width="64px" height="64px" viewBox="0 0 24 24" aria-label="リーダーモード"><title>リーダーモード</title><g transform="translate(-1.8, -1.8) scale(1.15, 1.2)"><path d="M8.9891247,2.5 C10.1384702,2.5 11.2209868,2.96705384 12.0049645,3.76669482 C12.7883914,2.96705384 13.8709081,2.5 15.0202536,2.5 L18.7549359,2.5 C19.1691495,2.5 19.5049359,2.83578644 19.5049359,3.25 L19.5046891,4.004 L21.2546891,4.00457396 C21.6343849,4.00457396 21.9481801,4.28672784 21.9978425,4.6528034 L22.0046891,4.75457396 L22.0046891,20.25 C22.0046891,20.6296958 21.7225353,20.943491 21.3564597,20.9931534 L21.2546891,21 L2.75468914,21 C2.37499337,21 2.06119817,20.7178461 2.01153575,20.3517706 L2.00468914,20.25 L2.00468914,4.75457396 C2.00468914,4.37487819 2.28684302,4.061083 2.65291858,4.01142057 L2.75468914,4.00457396 L4.50368914,4.004 L4.50444233,3.25 C4.50444233,2.87030423 4.78659621,2.55650904 5.15267177,2.50684662 L5.25444233,2.5 L8.9891247,2.5 Z M4.50368914,5.504 L3.50468914,5.504 L3.50468914,19.5 L10.9478955,19.4998273 C10.4513189,18.9207296 9.73864328,18.5588115 8.96709342,18.5065584 L8.77307039,18.5 L5.25444233,18.5 C4.87474657,18.5 4.56095137,18.2178461 4.51128895,17.8517706 L4.50444233,17.75 L4.50368914,5.504 Z M19.5049359,17.75 C19.5049359,18.1642136 19.1691495,18.5 18.7549359,18.5 L15.2363079,18.5 C14.3910149,18.5 13.5994408,18.8724714 13.0614828,19.4998273 L20.5046891,19.5 L20.5046891,5.504 L19.5046891,5.504 L19.5049359,17.75 Z M18.0059359,3.999 L15.0202536,4 L14.8259077,4.00692283 C13.9889509,4.06666544 13.2254227,4.50975805 12.7549359,5.212 L12.7549359,17.777 L12.7782651,17.7601316 C13.4923805,17.2719483 14.3447024,17 15.2363079,17 L18.0059359,16.999 L18.0056891,4.798 L18.0033792,4.75457396 L18.0056891,4.71 L18.0059359,3.999 Z M8.9891247,4 L6.00368914,3.999 L6.00599909,4.75457396 L6.00599909,4.75457396 L6.00368914,4.783 L6.00368914,16.999 L8.77307039,17 C9.57551536,17 10.3461406,17.2202781 11.0128313,17.6202194 L11.2536891,17.776 L11.2536891,5.211 C10.8200889,4.56369974 10.1361548,4.13636104 9.37521067,4.02745763 L9.18347055,4.00692283 L8.9891247,4 Z"></path></g></svg></button></div></div><div class="spacer mobile-only"></div><div class="explorer" data-behavior="link" data-collapsed="collapsed" data-savestate="true" data-data-fns="{&quot;order&quot;:[&quot;filter&quot;,&quot;map&quot;,&quot;sort&quot;],&quot;sortFn&quot;:&quot;(a,b)=>(b.dates?.modified??b.dates?.created??0)-(a.dates?.modified??a.dates?.created??0)&quot;,&quot;filterFn&quot;:&quot;f=>!f.slug.startsWith(\&quot;_\&quot;)&quot;,&quot;mapFn&quot;:&quot;node=>node&quot;}"><button type="button" class="explorer-toggle mobile-explorer hide-until-loaded" data-mobile="true" aria-controls="explorer-806"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide-menu"><line x1="4" x2="20" y1="12" y2="12"></line><line x1="4" x2="20" y1="6" y2="6"></line><line x1="4" x2="20" y1="18" y2="18"></line></svg></button><button type="button" class="title-button explorer-toggle desktop-explorer" data-mobile="false" aria-expanded="true"><h2>エクスプローラー</h2><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><div id="explorer-806" class="explorer-content" aria-expanded="false" role="group"><ul class="explorer-ul overflow" id="list-0"><li class="overflow-end"></li></ul></div><template id="template-file"><li><a href="#"></a></li></template><template id="template-folder"><li><div class="folder-container"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="folder-icon"><polyline points="6 9 12 15 18 9"></polyline></svg><div><button class="folder-button"><span class="folder-title"></span></button></div></div><div class="folder-outer"><ul class="content"></ul></div></li></template></div></div><div class="center"><div class="page-header"><div class="popover-hint"><nav class="breadcrumb-container" aria-label="breadcrumbs"><div class="breadcrumb-element"><a href="./">Home</a><p> ❯ </p></div><div class="breadcrumb-element"><a href>一冊でわかるイギリス史</a></div></nav><h1 class="article-title">一冊でわかるイギリス史</h1><p show-comma="true" class="content-meta"><time datetime="2026-01-02T14:15:09.000Z">2026年1月02日</time><span>54 min read</span></p></div></div><article class="popover-hint"><figure data-rehype-pretty-code-figure><pre tabindex="0" data-language="kobo-inboxer" data-theme="github-light github-dark"><code data-language="kobo-inboxer" data-theme="github-light github-dark" style="display:grid;"><span data-line> </span></code></pre></figure>
+<h1 id="一冊でわかるイギリス史">一冊でわかるイギリス史<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#一冊でわかるイギリス史" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h1>
+<hr/>
+<blockquote class="callout quote is-collapsible is-collapsed" data-callout="quote" data-callout-fold>
+<div class="callout-title">
+                  <div class="callout-icon"></div>
+                  <div class="callout-title-inner"><p>それでも旧領地をあきらめきれないジョン王は、戦費を調達する目... </p></div>
+                  <div class="fold-callout-icon"></div>
+                </div>
+<div class="callout-content">
+<div class="callout-content-inner">
+
+<p>それでも旧領地をあきらめきれないジョン王は、戦費を調達する目的で貴族に相談せずに何度も税を取り立てます。イングランド貴族は大陸に領地を持っていなかったことから、領地奪還はメリットがなく、税の負担に反感を持つようになっていきました。
+　１２１５年、鬱憤が高まったイングランド貴族は王権を制限し、貴族の権利、都市の自由をジョン王に迫り、認めさせます。これを文書化したものが「マグナ・カルタ（大憲章）」と呼ばれ、現在のイギリスにおいても国王の専制から、国民の権利や自由を守る典拠となっています。というのも、イギリスの憲法は「不文憲法」といって、日本国憲法のように法典がなく、制定法や議会法、判例、慣習などの積み重ねで成り立っているからです</p>
+</div>
+</div>
+</blockquote>
+<ul class="contains-task-list">
+<li class="task-list-item"><input type="checkbox" disabled/> memo::</li>
+<li>insight:: <a href="./02_Inbox/King-John-and-The-Magna-Carta" class="internal alias" data-slug="02_Inbox/King-John-and-The-Magna-Carta">King John and The Magna Carta</a></li>
+<li>insight:: <a href="./Inbox/旧領地について" class="internal alias" data-slug="Inbox/旧領地について">旧領地について</a></li>
+<li>insight:: <a href="./Inbox/memo-なんとなく" class="internal alias" data-slug="Inbox/memo-なんとなく">memo なんとなく</a></li>
+</ul>
+<hr/>
+<blockquote class="callout quote is-collapsible is-collapsed" data-callout="quote" data-callout-fold>
+<div class="callout-title">
+                  <div class="callout-icon"></div>
+                  <div class="callout-title-inner"><p>イングランドでは、族長に率いられた戦士団が砦を築き、その周り... </p></div>
+                  <div class="fold-callout-icon"></div>
+                </div>
+<div class="callout-content">
+<div class="callout-content-inner">
+
+<p>イングランドでは、族長に率いられた戦士団が砦を築き、その周りに農民が住み着くなどして多数の国が生まれます。そして戦争などを経て、７つの国に集約されました。そのため、７～９世紀のイングランドは七王国（ヘプターキ）時代とも呼ばれます。
+　また文化面で変化がありました。ゲルマン系のアングロ・サクソン人によって、イングランドの言語にも変化がみられます。当時のドイツ語に近い言葉が話されるようになり、「古英語」と呼ばれる、英語の前身ともいえる言語が成立します。
+　６世紀末には、本格的にキリスト教がブリテン島に伝わります。キリスト教は、ローマ帝国に支配されている時代にすでに入ってきていました。しかし、ローマ人がブリタニアを放棄してブリテン島から去ったことにより、布教は中断されていました。そこで５９６年に、ローマ教皇が宣教師を派遣して、アングロ・サクソン人に布教活動を行います。
+　ケントに本拠地が置かれ、イングランド各地に教会や修道院が建設されました。のちにケントにはカンタベリー大聖堂が建ち、イングランドのキリスト教で最も権威ある役職のカンタベリー大司教が置かれます</p>
+</div>
+</div>
+</blockquote>
+<ul class="contains-task-list">
+<li class="task-list-item"><input type="checkbox" disabled/> memo::</li>
+<li>insight:: <a href="./Inbox/memo" class="internal" data-slug="Inbox/memo">memo</a></li>
+</ul>
+<hr/>
+<blockquote class="callout quote is-collapsible is-collapsed" data-callout="quote" data-callout-fold>
+<div class="callout-title">
+                  <div class="callout-icon"></div>
+                  <div class="callout-title-inner"><p>ングランドでノルマン・コンクエストが起こる少し前、スコットラ... </p></div>
+                  <div class="fold-callout-icon"></div>
+                </div>
+<div class="callout-content">
+<div class="callout-content-inner">
+
+<p>ングランドでノルマン・コンクエストが起こる少し前、スコットランドでは、王位継承権争いが起こっていました。
+　スコットランド王から王位を奪ったマクベスは、統治能力に秀でていて１０４０年から当時としては長く、17年もの間、王位に就いていました。最期は、先王の子であるマルカム・カンモーとの戦いに敗れ、死去します。</p>
+</div>
+</div>
+</blockquote>
+<ul class="contains-task-list">
+<li class="task-list-item"><input type="checkbox" disabled/> memo::</li>
+</ul>
+<hr/>
+<blockquote class="callout quote is-collapsible is-collapsed" data-callout="quote" data-callout-fold>
+<div class="callout-title">
+                  <div class="callout-icon"></div>
+                  <div class="callout-title-inner"><p>旗と並んで公の場で見る機会の多いのが、「国章（王家の紋章）... </p></div>
+                  <div class="fold-callout-icon"></div>
+                </div>
+<div class="callout-content">
+<div class="callout-content-inner">
+
+<p>旗と並んで公の場で見る機会の多いのが、「国章（王家の紋章）」です。イギリスの国章もまた、旗と同じように複数の国章で構成されています。イングランドは赤地に黄色の３頭のライオン、スコットランドは黄地に赤い１頭のライオン、アイルランドは紺地に金色のハープに銀色の弦が描かれています。
+　ここでも、やはりウェールズの紋章はありません。理由は旗と同じです。
+　ちなみに、国章を支えている動物（国獣）のうち、ライオンはイングランド、ユニコーンはスコットランドを表しています。</p>
+</div>
+</div>
+</blockquote>
+<ul class="contains-task-list">
+<li class="task-list-item"><input type="checkbox" disabled/> memo::</li>
+</ul>
+<hr/>
+<blockquote class="callout quote is-collapsible is-collapsed" data-callout="quote" data-callout-fold>
+<div class="callout-title">
+                  <div class="callout-icon"></div>
+                  <div class="callout-title-inner"><p>イングランドの内乱は、１１４７年にグロスター伯ロバートが死去... </p></div>
+                  <div class="fold-callout-icon"></div>
+                </div>
+<div class="callout-content">
+<div class="callout-content-inner">
+
+<p>イングランドの内乱は、１１４７年にグロスター伯ロバートが死去し、その翌年に旧皇妃マチルダが大陸にもどったことで新たな局面を迎えます。旧皇妃マチルダに代わり、ノルマンディー公を継いだ息子のアンリが参戦しました。１１５１年には父のジョフロワが死去したことで、アンリはアンジュー伯を継ぎます。さらにその翌年には、フランス王ルイ７世と離婚したアリエノールと結婚しました。アリエノールはフランス南西部のアキテーヌ公の娘です。
+　この結婚によってアンリは、フランスにおいてノルマンディー、アンジュー、アキテーヌという広大な領地を所有するにいたったのです。その広さはフランス王の領地よりも大きいものでした。
+　アンリは幸運にも恵まれました。アリエノールとの結婚の少し前、王妃マチルダが亡くなり、１１５３年にはスティーヴン王の息子のユスタスも急死したのです。戦意を失ったスティーヴン王は、同年にアンリとウォーリングフォード条約を結びます。これは自身の死後、イングランド王位をアンリに譲るという内容でした。
+　スティーヴン王は１１５４年に亡くなり、ブロワ朝はわずか１代で終わります。そして条約にのっとり、アンリはイングランド国王ヘンリ２世として即位しました。ヘンリ２世を始祖とする王朝は「アンジュー朝」、またはアンジュー家の紋章である植物のエニシダ（プランタ・ジェネスタ）」から「プランタジネット朝」と呼ばれます</p>
+</div>
+</div>
+</blockquote>
+<ul class="contains-task-list">
+<li class="task-list-item"><input type="checkbox" disabled/> memo::</li>
+</ul>
+<hr/>
+<blockquote class="callout quote is-collapsible is-collapsed" data-callout="quote" data-callout-fold>
+<div class="callout-title">
+                  <div class="callout-icon"></div>
+                  <div class="callout-title-inner"><p>ブリトン人は島の中央部から、西部や北部、大陸へと逃げます。こ... </p></div>
+                  <div class="fold-callout-icon"></div>
+                </div>
+<div class="callout-content">
+<div class="callout-content-inner">
+
+<p>ブリトン人は島の中央部から、西部や北部、大陸へと逃げます。このうち西部に逃れたブリトン人が、のちのウェールズに住み着きました。ウェールズという言葉は、アングロ・サクソン人がブリトン人を「ウェアルフ（よそ者・奴隷）」と呼んだことに由来します</p>
+</div>
+</div>
+</blockquote>
+<ul class="contains-task-list">
+<li class="task-list-item"><input type="checkbox" disabled/> memo::</li>
+</ul>
+<hr/>
+<blockquote class="callout quote is-collapsible is-collapsed" data-callout="quote" data-callout-fold>
+<div class="callout-title">
+                  <div class="callout-icon"></div>
+                  <div class="callout-title-inner"><p>新しいイングランド王には、ジョンの息子がヘンリ３世として即位... </p></div>
+                  <div class="fold-callout-icon"></div>
+                </div>
+<div class="callout-content">
+<div class="callout-content-inner">
+
+<p>新しいイングランド王には、ジョンの息子がヘンリ３世として即位しました。幼少だったヘンリ３世を支える貴族のウィリアム・マーシャルは人望があり、さらにマグナ・カルタを遵守すると約束したことで、イングランド貴族の多くが国王側につきます。形勢は一気に国王側へ傾き、連戦連敗したルイはイングランド王位への要求を取り下げました</p>
+</div>
+</div>
+</blockquote>
+<ul class="contains-task-list">
+<li class="task-list-item"><input type="checkbox" disabled/> memo::</li>
+</ul>
+<hr/>
+<blockquote class="callout quote is-collapsible is-collapsed" data-callout="quote" data-callout-fold>
+<div class="callout-title">
+                  <div class="callout-icon"></div>
+                  <div class="callout-title-inner"><p>アルフレッド王の活躍で、イングランドではウェセックスが一強状... </p></div>
+                  <div class="fold-callout-icon"></div>
+                </div>
+<div class="callout-content">
+<div class="callout-content-inner">
+
+<p>アルフレッド王の活躍で、イングランドではウェセックスが一強状態となりますが、王位継承権の問題などで混乱し、イングランド統一にはいたりませんでした。そこへ頭角を現したのが、アルフレッドの孫であるアゼルスタンです。アゼルスタンはアルフレッド王の直系という血筋のみならず、マーシア女王であった伯母のもとで育てられ、マーシアの後継者とも認められていたのです。
+　９２４年にアゼルスタンはウェセックスの王に即位すると、イングランド各地にふたたび侵攻してきたデーン人を退け、イングランド北部の重要都市ヨークを取りもどします。９３７年には、島北部から侵攻してきたアルバ王国軍（くわしくはｃｈａｐｔｅｒ２「スコットランドの成立」参照）を撃破し、ブリテン島におけるイングランドの立場を優位にしまし</p>
+</div>
+</div>
+</blockquote>
+<ul class="contains-task-list">
+<li class="task-list-item"><input type="checkbox" disabled/> memo::</li>
+</ul>
+<hr/>
+<blockquote class="callout quote is-collapsible is-collapsed" data-callout="quote" data-callout-fold>
+<div class="callout-title">
+                  <div class="callout-icon"></div>
+                  <div class="callout-title-inner"><p>ジョン王は、アンジュー帝国の広大な領地を失い、諸侯への求心... </p></div>
+                  <div class="fold-callout-icon"></div>
+                </div>
+<div class="callout-content">
+<div class="callout-content-inner">
+
+<p>ジョン王は、アンジュー帝国の広大な領地を失い、諸侯への求心力がなかったことから、暗愚なイメージが強く、以降のイングランド王家でジョンという名前をつけられた者はいません。中世イングランドの伝説的な英雄「ロビン・フッド」を主人公とした物語において、悪役としてジョン王は登場することもあります。</p>
+</div>
+</div>
+</blockquote>
+<ul class="contains-task-list">
+<li class="task-list-item"><input type="checkbox" disabled/> memo::</li>
+</ul>
+<hr/>
+<blockquote class="callout quote is-collapsible is-collapsed" data-callout="quote" data-callout-fold>
+<div class="callout-title">
+                  <div class="callout-icon"></div>
+                  <div class="callout-title-inner"><p>領民のために体を張った淑女ゴディヴァ夫人Lady Godiv... </p></div>
+                  <div class="fold-callout-icon"></div>
+                </div>
+<div class="callout-content">
+<div class="callout-content-inner">
+
+<p>領民のために体を張った淑女
+ゴディヴァ夫人
+Lady Godiva
+（９９０ごろ～１０６７）</p>
+<p>夫の悪政を妻が身をもって止める</p>
+<p>　北海帝国に組み込まれていた時代のイングランドには、強い権限を持つ貴族が複数いました。マーシア伯レオフリックも、そうした有力貴族の１人です。
+　伝説では、レオフリックは領地のコヴェントリーの領民に多額の税金を課して苦しめていました。情け深いレオフリック夫人のゴディヴァが減税を訴えると、レオフリックは裸身で馬に乗って街を１周すれば、減税すると、無茶な約束をします。ゴディヴァはそのとおり実行し、約束どおり領民は減税となったのです。
+　ゴディヴァが１周する際、その心意気を感じた領民たちは目を伏せていましたが、ただ１人、トムという男が盗み見ました。これが「ピーピング・トム（のぞき魔）」の由来といわれています。
+　有名チョコレートメーカーのゴディヴァは、この夫人の名前が由来です。</p>
+</div>
+</div>
+</blockquote>
+<ul class="contains-task-list">
+<li class="task-list-item"><input type="checkbox" disabled/> memo::</li>
+</ul>
+<hr/>
+<blockquote class="callout quote is-collapsible is-collapsed" data-callout="quote" data-callout-fold>
+<div class="callout-title">
+                  <div class="callout-icon"></div>
+                  <div class="callout-title-inner"><p>ヨーロッパの覇者であったローマ帝国も大きな転機を迎えます。３... </p></div>
+                  <div class="fold-callout-icon"></div>
+                </div>
+<div class="callout-content">
+<div class="callout-content-inner">
+
+<p>ヨーロッパの覇者であったローマ帝国も大きな転機を迎えます。３９５年に、帝都ローマを中心とした西ローマ帝国と、コンスタンティノープル（現在のトルコのイスタンブール）を中心とした東ローマ帝国に分裂したのです。
+　そうした背景には、４世紀以降のフン人の西進によってゲルマン民族が大移動し、ローマ帝国領内へ侵入したことが挙げられます。ゲルマン民族の活動が活発になるにつれ、各地で西ローマ帝国の支配はゆらぎはじめました。その動揺はブリテン島に及び、ブリテン島からローマ人が撤退する要因になります。ブリテン島からローマ人が引き上げた結果、防衛力は弱体化し、ピクト人がハドリアヌスの長城を越えて南部に押し寄せます。
+　４０９年、ついに西ローマ帝国はブリタニアを放棄し、ローマ軍は撤退。「ローマの平和（パックス・ロマーナ）」とうたわれた比較的平和な時代は終わりを告げました。そして、ローマ人と入れ替わるように、大陸からゲルマン系の「アングロ・サクソン人」がブリテン島へやってきます。</p>
+</div>
+</div>
+</blockquote>
+<ul class="contains-task-list">
+<li class="task-list-item"><input type="checkbox" disabled/> memo::</li>
+</ul>
+<hr/>
+<blockquote class="callout quote is-collapsible is-collapsed" data-callout="quote" data-callout-fold>
+<div class="callout-title">
+                  <div class="callout-icon"></div>
+                  <div class="callout-title-inner"><p>大陸に逃げたブリトン人が住み着いた場所が、のちのフランスの... </p></div>
+                  <div class="fold-callout-icon"></div>
+                </div>
+<div class="callout-content">
+<div class="callout-content-inner">
+
+<p>大陸に逃げたブリトン人が住み着いた場所が、のちのフランスのブルターニュ地方です。その地が彼らにとっての小さなブリトンという意味でのブリタニー（フランス語のブルターニュ）ということから「小ブリテン」となります。ブルターニュ地方から見て大きなブリテン島ということで「大ブリテン」という用語が生まれたともいわれます</p>
+</div>
+</div>
+</blockquote>
+<ul class="contains-task-list">
+<li class="task-list-item"><input type="checkbox" disabled/> memo::</li>
+</ul>
+<hr/>
+<blockquote class="callout quote is-collapsible is-collapsed" data-callout="quote" data-callout-fold>
+<div class="callout-title">
+                  <div class="callout-icon"></div>
+                  <div class="callout-title-inner"><p>ウェセックスのアルフレッド王は、デーンロウ地方から南側を治め... </p></div>
+                  <div class="fold-callout-icon"></div>
+                </div>
+<div class="callout-content">
+<div class="callout-content-inner">
+
+<p>ウェセックスのアルフレッド王は、デーンロウ地方から南側を治めることとなり、荒廃したイングランドの復興に取りかかります。
+　文化や学問に力を入れ、学校を設立し、臣下とその子弟を入学させました。自身も40歳を過ぎてラテン語を習得して、聖書の古英語への翻訳などを手がけます。さらには自分の治世を広く知らしめるため、『アルフレッド大王伝』や『アングロ・サクソン年代記』を記述させました。おかげで古英語が、イングランドの標準語になっていきました。
+　アルフレッド王は、オファ王の法典をもとに新たな法典を編纂しました。また、行政区分として「州（シャイア）」を導入し、州長として「シェリフ」という地方行政官を置きました。このシャイアは、のちに「カウンティ」と名を変えて、１９７４年に改正されるまで使い続けられました。アメリカ合衆国の行政単位である「郡」はこのカウンティを参考につくられています。
+　アルフレッド王は８９９年に死去します。イングランドをデーン人の侵攻から救ったなどの功績によって、イングランドの歴史上で「大王」と称されています。そして、その血筋は綿々と現代のイギリス王室まで続いていま</p>
+</div>
+</div>
+</blockquote>
+<ul class="contains-task-list">
+<li class="task-list-item"><input type="checkbox" disabled/> memo::</li>
+</ul>
+<hr/>
+<blockquote class="callout quote is-collapsible is-collapsed" data-callout="quote" data-callout-fold>
+<div class="callout-title">
+                  <div class="callout-icon"></div>
+                  <div class="callout-title-inner"><p>、イングランド王となったウィリアム１世でしたが、ノルマンディ... </p></div>
+                  <div class="fold-callout-icon"></div>
+                </div>
+<div class="callout-content">
+<div class="callout-content-inner">
+
+<p>、イングランド王となったウィリアム１世でしたが、ノルマンディー公という身分はそのままでした。すなわち、イングランド王であると同時に、フランス王の家臣でもあったのです。このねじれた関係が、のちの百年戦争の引き金になります。</p>
+</div>
+</div>
+</blockquote>
+<ul class="contains-task-list">
+<li class="task-list-item"><input type="checkbox" disabled/> memo::</li>
+</ul>
+<hr/>
+<blockquote class="callout quote is-collapsible is-collapsed" data-callout="quote" data-callout-fold>
+<div class="callout-title">
+                  <div class="callout-icon"></div>
+                  <div class="callout-title-inner"><p>内政では、アルフレッド王の整えた州制を拡張し、州の下に「郡」... </p></div>
+                  <div class="fold-callout-icon"></div>
+                </div>
+<div class="callout-content">
+<div class="callout-content-inner">
+
+<p>内政では、アルフレッド王の整えた州制を拡張し、州の下に「郡」、その下に「十人組」と、より細かな行政区分を設けます。
+　さらに、司教や地方を統治する有力貴族である「伯」などと、クリスマスやイースターの際に、定期的に会議を開き、意見を取り入れるように定めます。これは「賢人会議」といわれ、イングランドの議会のもとになったといわれています。賢人会議では、イングランドの国全体の防衛や外交、立法や司法、そして王位継承問題までも話し合われました。まさに、現代における議会のような役割を担っていたのです。
+　アゼルスタンは外交にも力を入れます。フランス王のユーグ・カペーや、神聖ローマ皇帝のオットー１世に自分の姉妹を嫁がせ、ヨーロッパの強国と血縁を結び、関係を強化しました。
+　アゼルスタン王は９２７年ごろから、発行する領地権利証書（土地の所有に関する証書）に「イングランド王」という称号を使うようになります。こうして、初めてイングランド全域で公式に「イングランド王」の称号が使われるようになったのです</p>
+</div>
+</div>
+</blockquote>
+<ul class="contains-task-list">
+<li class="task-list-item"><input type="checkbox" disabled/> memo::</li>
+</ul>
+<hr/>
+<blockquote class="callout quote is-collapsible is-collapsed" data-callout="quote" data-callout-fold>
+<div class="callout-title">
+                  <div class="callout-icon"></div>
+                  <div class="callout-title-inner"><p>リチャード１世の死により、ついにジョンはイングランド王に即... </p></div>
+                  <div class="fold-callout-icon"></div>
+                </div>
+<div class="callout-content">
+<div class="callout-content-inner">
+
+<p>リチャード１世の死により、ついにジョンはイングランド王に即位しましたが、ノルマンディーやアンジューはフィリップ２世にあっさりと奪われます。むしろ、大陸の貴族が進んでフィリップ２世に服従したといわれます。というのも、ノルマン・コンクエスト時には、イングランドと大陸の両方に領地を持っていた貴族も、このころには本家、分家といった家の分化が進み、大陸にしか領地のない貴族のイングランド王への忠誠心は希薄になっていたからです</p>
+</div>
+</div>
+</blockquote>
+<ul class="contains-task-list">
+<li class="task-list-item"><input type="checkbox" disabled/> memo::</li>
+</ul>
+<hr/>
+<blockquote class="callout quote is-collapsible is-collapsed" data-callout="quote" data-callout-fold>
+<div class="callout-title">
+                  <div class="callout-icon"></div>
+                  <div class="callout-title-inner"><p>なお、ブリテン島がアルビオンと呼ばれていたころ、隣のアイル... </p></div>
+                  <div class="fold-callout-icon"></div>
+                </div>
+<div class="callout-content">
+<div class="callout-content-inner">
+
+<p>なお、ブリテン島がアルビオンと呼ばれていたころ、隣のアイルランド島はラテン語で「冬の地」などを意味する「ヒベルニア（ハイバーニア）」と呼ばれていました。アイルランド島のケルト系民族を「ゲール人」といいます。その名称の由来は、ローマ人がブリトン人を「グイール（グイデル）」と呼んでいたことから、アイルランド島のケルト人が自分たちをゲールと自称したことにはじまります。
+　紀元前５世紀ごろから、ゲール人はアイルランド島に定住します。ローマの支配は及ばなかったものの、文化的には多くの影響を受けま</p>
+</div>
+</div>
+</blockquote>
+<ul class="contains-task-list">
+<li class="task-list-item"><input type="checkbox" disabled/> memo::</li>
+</ul>
+<hr/>
+<blockquote class="callout quote is-collapsible is-collapsed" data-callout="quote" data-callout-fold>
+<div class="callout-title">
+                  <div class="callout-icon"></div>
+                  <div class="callout-title-inner"><p>マルカム・カンモーは、１０５８年にスコットランド王マルカム３... </p></div>
+                  <div class="fold-callout-icon"></div>
+                </div>
+<div class="callout-content">
+<div class="callout-content-inner">
+
+<p>マルカム・カンモーは、１０５８年にスコットランド王マルカム３世として即位します。亡命先のイングランドで育ったマルカム３世は、アングロ・サクソン人の文化を好み、妻もウェセックス王家の血筋でした。このマルカム３世によって、スコットランド南部はイングランド化していき、それまでのゲール語ではなく英語が話されるようになります。
+　しかしながら、スコットランドとイングランドの国境線は明確でなかったこともあり、互いに侵攻をくり返していました。１２３７年にヘンリ３世とスコットランド王アレグザンダー２世との間で「ヨーク条約」が結ばれ、ようやく国境が確定しました。</p>
+</div>
+</div>
+</blockquote>
+<ul class="contains-task-list">
+<li class="task-list-item"><input type="checkbox" disabled/> memo::</li>
+</ul>
+<hr/>
+<blockquote class="callout quote is-collapsible is-collapsed" data-callout="quote" data-callout-fold>
+<div class="callout-title">
+                  <div class="callout-icon"></div>
+                  <div class="callout-title-inner"><p>イングランドが正式に統一されたとされているのが、アゼルスタン... </p></div>
+                  <div class="fold-callout-icon"></div>
+                </div>
+<div class="callout-content">
+<div class="callout-content-inner">
+
+<p>イングランドが正式に統一されたとされているのが、アゼルスタンの甥にあたるエドガー王の治世です。エドガー王の時代に、かつて七王国であったマーシアやイースト・アングリアなどの地域は、国王に忠誠を誓う「伯」によって統治され、その頂点にはイングランド王であるエドガーが君臨していました。
+　エドガーは前王であった兄のエドウィの突然死により、９５９年に即位しました。熱心なキリスト教徒だったので、デーン人に破壊された教会を統合し、新たに大きな教会を建てます。またカンタベリー大司教と腐敗した教会の改革に尽力しました。
+　現代まで慣習として続く、イングランド（イギリス）国王の戴冠式をはじめたのもエドガー王です。９７３年、エドガー王はイングランド南西部のバースにある修道院で、大司教の手により頭に冠をいただきます。戴冠式はキリスト教式で、王を聖なる者として、神の名のもとで王は宣誓し、民衆が承認するという形式です</p>
+</div>
+</div>
+</blockquote>
+<ul class="contains-task-list">
+<li class="task-list-item"><input type="checkbox" disabled/> memo::</li>
+</ul>
+<hr/>
+<blockquote class="callout quote is-collapsible is-collapsed" data-callout="quote" data-callout-fold>
+<div class="callout-title">
+                  <div class="callout-icon"></div>
+                  <div class="callout-title-inner"><p>イングランド王となったエドワード１世は、祖父や父と違い、就... </p></div>
+                  <div class="fold-callout-icon"></div>
+                </div>
+<div class="callout-content">
+<div class="callout-content-inner">
+
+<p>イングランド王となったエドワード１世は、祖父や父と違い、就任当初から議会を尊重しました。ローマ教皇から寄進を求められても、「議会の承認が必要」と拒否。外国との講和を結ぶ際にも、必ず議会に相談しました。さらにこの時代の議会には、オックスフォード大学やケンブリッジ大学で学んだ法律家が多く参加しています。
+　エドワード１世が議会を重視したのには理由があります。それは、エドワード１世の野望であるブリテン島の統一、すなわちウェールズとスコットランドに攻め込むための莫大な戦費が必要だったのです。
+　マグナ・カルタによってイングランド王の王権は制限されており、新たな税の徴収には議会の承認が必要でした。そこでエドワード１世は、ヨーロッパで需要の高まった羊毛に目をつけて輸出関税を設け、税収を増やします</p>
+</div>
+</div>
+</blockquote>
+<ul class="contains-task-list">
+<li class="task-list-item"><input type="checkbox" disabled/> memo::</li>
+</ul>
+<hr/>
+<blockquote class="callout quote is-collapsible is-collapsed" data-callout="quote" data-callout-fold>
+<div class="callout-title">
+                  <div class="callout-icon"></div>
+                  <div class="callout-title-inner"><p>ウィリアム１世は１０８７年に死去し、領地は分割相続されます... </p></div>
+                  <div class="fold-callout-icon"></div>
+                </div>
+<div class="callout-content">
+<div class="callout-content-inner">
+
+<p>ウィリアム１世は１０８７年に死去し、領地は分割相続されます。本拠地であるノルマンディー公国は長男のロベールが、イングランド王国は三男のウィリアム２世が治めました。ところが、ウィリアム２世は狩りの最中に当たった矢がもとで、命を落とします。ウィリアム２世には跡継ぎがいなかったため、１１００年、ウィリアム１世の末子のヘンリが、勝手にヘンリ１世としてイングランド王に即位します。
+　ヘンリの即位に、イングランド支配を目論んでいたロベールは激怒し、イングランドに侵攻します。このとき、ヘンリ１世はロベールに金を支払い、ノルマンディーへの野心の放棄を約束し、イングランド王の地位を確保しました。
+　そんな弱腰の王に対し、イングランドと大陸の両方に領地を持つイングランド貴族が不服として反乱を起こしたため、ヘンリ１世はノルマンディーとの統一を決意します。１１０６年、ヘンリ１世はノルマンディーに攻め込み、ロベールに勝利してノルマンディー公を兼ねます。とらえられたロベールは、ウェールズの城に28年間監禁された末に亡くなりました。</p>
+</div>
+</div>
+</blockquote>
+<ul class="contains-task-list">
+<li class="task-list-item"><input type="checkbox" disabled/> memo::</li>
+</ul>
+<hr/>
+<blockquote class="callout quote is-collapsible is-collapsed" data-callout="quote" data-callout-fold>
+<div class="callout-title">
+                  <div class="callout-icon"></div>
+                  <div class="callout-title-inner"><p>８世紀末、海を渡ってブリテン島にヴァイキングが来襲します。... </p></div>
+                  <div class="fold-callout-icon"></div>
+                </div>
+<div class="callout-content">
+<div class="callout-content-inner">
+
+<p>８世紀末、海を渡ってブリテン島にヴァイキングが来襲します。ヴァイキングは一説には「入江に住む人々」という意味で、現在のノルウェーのノール人やデンマークのデーン人、スウェーデンのスウェード人など、北欧神話を信仰していた北ゲルマン人の総称です。
+　ヴァイキングは船団でやってきて、海に近い修道院などを襲撃して宝物などを略奪すると、すぐに去っていきました。当時のブリテン島では、海からの侵攻を想定していなかったので富が集まる修道院であっても警備が甘かったのです。
+　なお、ヴァイキングは海賊というイメージがあるかもしれませんが、その多くが船乗りや農民、商人だったといい、略奪だけでなく交易も行っていました。
+　やがて９世紀後半には、それまで略奪後に去っていたヴァイキングが、アイルランド島の東部やイングランドの南東部、ノルマンディー（現在のフランス北西部）などに定住するようになります。そして８６５年、ヴァイキングであるデーン人が、馬を使った機動力のある戦法でイースト・アングリアとノーサンブリアを滅ぼします。こうして七王国は、マーシアとウェセックスだけになってしまいました。</p>
+</div>
+</div>
+</blockquote>
+<ul class="contains-task-list">
+<li class="task-list-item"><input type="checkbox" disabled/> memo::</li>
+</ul>
+<hr/>
+<blockquote class="callout quote is-collapsible is-collapsed" data-callout="quote" data-callout-fold>
+<div class="callout-title">
+                  <div class="callout-icon"></div>
+                  <div class="callout-title-inner"><p>。紀元前27年、カエサルの養子のアウグストゥスが皇帝となり、... </p></div>
+                  <div class="fold-callout-icon"></div>
+                </div>
+<div class="callout-content">
+<div class="callout-content-inner">
+
+<p>。紀元前27年、カエサルの養子のアウグストゥスが皇帝となり、古代ローマは共和制から帝政に変わると、各地域へ侵攻して勢力を拡大します。ブリテン島には、紀元43年に皇帝のクラウディウスみずから率いる約４万もの大軍が押し寄せ、圧倒的な武力でブリテン島の４分の３を征服しました</p>
+</div>
+</div>
+</blockquote>
+<ul class="contains-task-list">
+<li class="task-list-item"><input type="checkbox" disabled/> memo::</li>
+</ul>
+<hr/>
+<blockquote class="callout quote is-collapsible is-collapsed" data-callout="quote" data-callout-fold>
+<div class="callout-title">
+                  <div class="callout-icon"></div>
+                  <div class="callout-title-inner"><p>激怒したヘンリ若王は挙兵し、そこにリチャード、ジェフリー、ア... </p></div>
+                  <div class="fold-callout-icon"></div>
+                </div>
+<div class="callout-content">
+<div class="callout-content-inner">
+
+<p>激怒したヘンリ若王は挙兵し、そこにリチャード、ジェフリー、アリエノールに加え、フランス国王ルイ７世とスコットランド国王ウィリアム１世まで加勢しました。対して、ヘンリ２世は帝国内からもたらされる豊富な資金を元手に傭兵を雇って反撃。ヘンリ若王一派を屈服させ、アリエノールを幽閉します。
+　やがてヘンリ若王とジェフリーが相次いで死去すると、リチャードが新たな後継者となります。すると今度は、リチャードにアキテーヌをジョンへ与えるようにヘンリ２世は命じます。リチャードはこれを拒否し、フランスの新たな王フィリップ２世と手を組んで対抗しました。リチャード側が優勢になると、ジョンがヘンリ２世を裏切ってリチャードに手を貸します。
+　ジョンの寝返りにショックを受けたヘンリ２世は、アンジュー領内の城で失意のままに亡くなります。１１８９年、リチャードは新たにアンジュー帝国の主となり、イングランド王リチャード１世として即位しました。騎士道精神の持ち主であり、勇猛果敢な戦いぶりから「獅子心王」の異名で知られる人物です。</p>
+</div>
+</div>
+</blockquote>
+<ul class="contains-task-list">
+<li class="task-list-item"><input type="checkbox" disabled/> memo::</li>
+</ul>
+<hr/>
+<blockquote class="callout quote is-collapsible is-collapsed" data-callout="quote" data-callout-fold>
+<div class="callout-title">
+                  <div class="callout-icon"></div>
+                  <div class="callout-title-inner"><p>このときカエサルは、ブリテン島が〝島〟であることも、島に住む... </p></div>
+                  <div class="fold-callout-icon"></div>
+                </div>
+<div class="callout-content">
+<div class="callout-content-inner">
+
+<p>このときカエサルは、ブリテン島が〝島〟であることも、島に住むケルト人のことも知らなかったといわれています。そのことを裏づける逸話もあります。北ガリア地方に住むベルガエ人を「ブリタニ」と呼んでいたローマ人は、ブリテン島に住む「プリタニ（入れ墨を施した者という意味）」も同じと勘違いして、ブリテン島を「ブリタニの地」、つまり、「ブリタニア」と呼ぶようになったといわれています。そしてブリテン島のベルガエ人も、ブリトン人と呼ばれるようになりました。</p>
+</div>
+</div>
+</blockquote>
+<ul class="contains-task-list">
+<li class="task-list-item"><input type="checkbox" disabled/> memo::</li>
+</ul>
+<hr/>
+<blockquote class="callout quote is-collapsible is-collapsed" data-callout="quote" data-callout-fold>
+<div class="callout-title">
+                  <div class="callout-icon"></div>
+                  <div class="callout-title-inner"><p>１１３５年、ヘンリ１世はノルマンディー公国で亡くなりました... </p></div>
+                  <div class="fold-callout-icon"></div>
+                </div>
+<div class="callout-content">
+<div class="callout-content-inner">
+
+<p>１１３５年、ヘンリ１世はノルマンディー公国で亡くなりました。その死を知ったヘンリ１世の甥であり、フランスのブロワ家出身でブローニュ伯のエティエンヌは、すぐさまロンドンに赴き、反マチルダ派の教会と多くの貴族の協力もあり、イングランド王スティーヴンとして即位します。
+　一方で後継者であったマチルダは、アンジューにいたため、スティーヴンの即位の動きへの対応が遅れてしまいました。
+　このスティーヴン王の治世は、その出身家から「ブロワ朝」とも呼ばれます。
+　スティーヴンの即位に、マチルダは手をこまねいていただけではありません。叔父（もしくは伯父）のスコットランド王デイヴィッド１世や異母兄のグロスター伯ロバートを味方につけ、王位を奪おうとします。夫のジョフロワは、フランス王からノルマンディー公として認められています。
+　２人の争いによりイングランドは内乱状態に陥りました。状況はマチルダ有利に傾き、１１４１年のリンカンの戦いで勝利を収め、スティーヴン王を捕虜とします。
+　勢いに乗ったマチルダは「イングランド並びにノルマンディーの女性君主」として戴冠式を行おうと、ウェストミンスター寺院に進軍しますが、反対勢力にはばまれます。阻止したのは、スティーヴン王の妃のマチルダが率いる軍でした。
+　王妃マチルダは夫が捕らわれながらもスティーヴン派を結束させ、戦いに勝ちロバートを捕虜にしました。そして、スティーヴン王とロバートは交換され、解放されます。
+　内乱は奇しくも、マチルダという同じ名前の女性による争いとなっていたのです</p>
+</div>
+</div>
+</blockquote>
+<ul class="contains-task-list">
+<li class="task-list-item"><input type="checkbox" disabled/> memo::</li>
+</ul>
+<hr/>
+<blockquote class="callout quote is-collapsible is-collapsed" data-callout="quote" data-callout-fold>
+<div class="callout-title">
+                  <div class="callout-icon"></div>
+                  <div class="callout-title-inner"><p>50年ごろ、ローマ人がテムズ川北岸にブリタニアの州都を築きま... </p></div>
+                  <div class="fold-callout-icon"></div>
+                </div>
+<div class="callout-content">
+<div class="callout-content-inner">
+
+<p>50年ごろ、ローマ人がテムズ川北岸にブリタニアの州都を築きます。州都はローマ人が沼地を埋め立て、建設された砦を中心に形成されました。そのことから、ローマの支配下にあった時代の州都は、ケルト人の言葉で「沼地にある砦」を意味する「ロンディニウム（ロンディニオン）」と呼ばれていました（語源は諸説あり）。この州都こそが、のちのロンドンの原型になります。
+　ローマ人は積極的に自分たちの文化を属州に持ちこみ、「ロマーノ・ブリティッシュ（ローマ・ブリテン的）」という、ケルト文化と混じった社会ができました。ロンディニウムには公衆浴場や円形劇場（競技場）、法廷などがつくられました。ローマ帝国の公用語であったラテン語教育が行われ、ケルト人のローマ化を促します。ブリテン島内の農村部では、ローマ風の大規模な農園がつくられ、穀物が栽培されたのです。ブリテン島で採れた穀物や海産物はローマへ送られました</p>
+</div>
+</div>
+</blockquote>
+<ul class="contains-task-list">
+<li class="task-list-item"><input type="checkbox" disabled/> memo::</li>
+</ul>
+<hr/>
+<blockquote class="callout quote is-collapsible is-collapsed" data-callout="quote" data-callout-fold>
+<div class="callout-title">
+                  <div class="callout-icon"></div>
+                  <div class="callout-title-inner"><p>ローマ帝国の支配が及ばなかった地域もあります。それはブリテン... </p></div>
+                  <div class="fold-callout-icon"></div>
+                </div>
+<div class="callout-content">
+<div class="callout-content-inner">
+
+<p>ローマ帝国の支配が及ばなかった地域もあります。それはブリテン島北部です。はじめローマ人は、現在のほぼスコットランドにあたる「ピクト人（ラテン語で体を彩色していた人々、入れ墨の人々）」の住む地域を「ピクトランド」と呼んでいましたが、ピクトランドに遠征したブリタニア総督が樹木の生い茂る土地を見て「カレドニア（緑樹林の地）」と呼ぶようになり、以後、カレドニアという名が定着したとされています。
+　ピクト人はカレドニアへ侵攻しようとするローマ軍に激しく抵抗し、逆にたびたびブリタニアに侵攻してきました。
+　このピクト人からの防衛を目的に、１２２年にローマ皇帝のハドリアヌスの命令で、ブリテン島北部を東西に横断する全長１１８キロメートルに及ぶ石積みの壁の建設をはじめます。完成後、この壁は「ハドリアヌスの長城」と呼ばれました。
+　次のローマ皇帝のアントニヌスは、ハドリアヌスの長城の北に別の壁「アントニヌスの長城」を築きます。
+　60年後にはアントニヌスの長城は放棄され、ハドリアヌスの長城がブリタニアの北限となりました。ハドリアヌスの長城は、やがて成立するイングランド王国とスコットランド王国の国境線に大きく影響を与えることとなります。</p>
+</div>
+</div>
+</blockquote>
+<ul class="contains-task-list">
+<li class="task-list-item"><input type="checkbox" disabled/> memo::</li>
+</ul>
+<hr/>
+<blockquote class="callout quote is-collapsible is-collapsed" data-callout="quote" data-callout-fold>
+<div class="callout-title">
+                  <div class="callout-icon"></div>
+                  <div class="callout-title-inner"><p>リチャード１世が幽閉されている間、フィリップ２世はノルマンデ... </p></div>
+                  <div class="fold-callout-icon"></div>
+                </div>
+<div class="callout-content">
+<div class="callout-content-inner">
+
+<p>リチャード１世が幽閉されている間、フィリップ２世はノルマンディーやトゥレーヌなど、アンジュー帝国の大陸の領地を奪っていました。しかもジョンがフィリップ２世と共謀しており、リチャード１世にイングランド王位を要求します。
+　イングランドに帰国したリチャード１世はすぐさま大陸に渡り、獅子奮迅の動きで領地を取り返すと、ジョンを降伏させました。ところが、この戦いでの傷がもとでリチャード１世は１１９９年に死去します。その武勇から高名ではありますが、戦争に明け暮れ、莫大な身代金のこともあって、国民に経済的な負担を課したことは、アンジュー帝国の崩壊の一端となったと考えられています。</p>
+</div>
+</div>
+</blockquote>
+<ul class="contains-task-list">
+<li class="task-list-item"><input type="checkbox" disabled/> memo::</li>
+</ul>
+<hr/>
+<blockquote class="callout quote is-collapsible is-collapsed" data-callout="quote" data-callout-fold>
+<div class="callout-title">
+                  <div class="callout-icon"></div>
+                  <div class="callout-title-inner"><p>紀元前58年、古代ローマのガリア総督だったカエサルがガリア地... </p></div>
+                  <div class="fold-callout-icon"></div>
+                </div>
+<div class="callout-content">
+<div class="callout-content-inner">
+
+<p>紀元前58年、古代ローマのガリア総督だったカエサルがガリア地方（現在のフランスやベルギーなどに相当）に遠征し、ベルガエ人などの反ローマ勢力を平定すると、その３年後、今度はブリテン島に侵攻してきます。ブリテン島にもベルガエ人の拠点があったことから、カエサルが平定を試みたのです。</p>
+</div>
+</div>
+</blockquote>
+<ul class="contains-task-list">
+<li class="task-list-item"><input type="checkbox" disabled/> memo::</li>
+</ul>
+<hr/>
+<blockquote class="callout quote is-collapsible is-collapsed" data-callout="quote" data-callout-fold>
+<div class="callout-title">
+                  <div class="callout-icon"></div>
+                  <div class="callout-title-inner"><p>イングランド王となったことで、ヘンリ２世の領地はさらに拡大し... </p></div>
+                  <div class="fold-callout-icon"></div>
+                </div>
+<div class="callout-content">
+<div class="callout-content-inner">
+
+<p>イングランド王となったことで、ヘンリ２世の領地はさらに拡大しました。イングランドに加え、フランス南西部一帯、ピレネー山脈にいたる地域の支配者となったのです。
+　さらに、ウェールズのデハイバース公国（ヘンリ１世の時代にイングランドに臣従）を支配下に収めます。そしてローマ教皇に代わって、アイルランドでキリスト教を布教する代わりとして与えられたアイルランド太守の地位を理由に、アイルランドへ侵攻し、支配下に収めました。
+　あまりに広大な領地だったため、ヘンリ２世の領地は「アンジュー帝国」と呼ばれます。ただし帝国といっても、それぞれの領国ごとに、慣習や身分制度、貨幣制度は異なることから、北海帝国と同様に便宜的な呼び方であり、正式な国名ではありません</p>
+</div>
+</div>
+</blockquote>
+<ul class="contains-task-list">
+<li class="task-list-item"><input type="checkbox" disabled/> memo::</li>
+</ul>
+<hr/>
+<blockquote class="callout quote is-collapsible is-collapsed" data-callout="quote" data-callout-fold>
+<div class="callout-title">
+                  <div class="callout-icon"></div>
+                  <div class="callout-title-inner"><p>王妃アリエノールと険悪な仲になりました。ヘンリ２世が愛人に心... </p></div>
+                  <div class="fold-callout-icon"></div>
+                </div>
+<div class="callout-content">
+<div class="callout-content-inner">
+
+<p>王妃アリエノールと険悪な仲になりました。ヘンリ２世が愛人に心移りしたことが原因です。そのアリエノールとの間には、５人の息子と３人の娘がいました。長男は早くに死去し、次男のヘンリ若王が後継者となり、名目上はヘンリ２世と共同で領地を統治していました。
+　何の問題なく相続されると思われていましたが、１１７３年にヘンリ２世が溺愛している末子のジョンに、ヘンリ若王へ譲るはずの領地を与えようとしたことで争いが起こります。なぜなら、ヘンリ２世から与えられるべき領地は兄弟に分配されており、アリエノールが45歳のときに生まれたジョンには残っていなかったからです</p>
+</div>
+</div>
+</blockquote>
+<ul class="contains-task-list">
+<li class="task-list-item"><input type="checkbox" disabled/> memo::</li>
+</ul>
+<hr/>
+<blockquote class="callout quote is-collapsible is-collapsed" data-callout="quote" data-callout-fold>
+<div class="callout-title">
+                  <div class="callout-icon"></div>
+                  <div class="callout-title-inner"><p>さらに当時、神聖ローマ皇帝と対立していたローマ教皇がヘンリ... </p></div>
+                  <div class="fold-callout-icon"></div>
+                </div>
+<div class="callout-content">
+<div class="callout-content-inner">
+
+<p>さらに当時、神聖ローマ皇帝と対立していたローマ教皇がヘンリ３世を懐柔するために、イタリアのシチリア国王にヘンリ３世の次男を推挙します。シチリアを支配していたのは神聖ローマ皇帝の子であり、排除するためにヘンリ３世がシチリアに遠征する必要がありました。しかし巨額の戦費がかかることから議会は反発。計画は失敗します。</p>
+</div>
+</div>
+</blockquote>
+<ul class="contains-task-list">
+<li class="task-list-item"><input type="checkbox" disabled/> memo::</li>
+</ul>
+<hr/>
+<blockquote class="callout quote is-collapsible is-collapsed" data-callout="quote" data-callout-fold>
+<div class="callout-title">
+                  <div class="callout-icon"></div>
+                  <div class="callout-title-inner"><p>異邦人としてさげすまされたブリトン人がアングロ・サクソン人へ... </p></div>
+                  <div class="fold-callout-icon"></div>
+                </div>
+<div class="callout-content">
+<div class="callout-content-inner">
+
+<p>異邦人としてさげすまされたブリトン人がアングロ・サクソン人への抵抗心から生み出したのが、円卓の騎士で知られる中世の騎士道物語『アーサー王物語』です。物語の主人公アーサー王にはモデルがいて、５世紀末にブリテン島南部において、アングロ・サクソン人と戦ったブリトン人の武人の１人だともいわれています。
+　ブリテン島北部ことカレドニアでは、もともと住んでいたピクト人と、４世紀ごろにアイルランド北東部から移り住んだ「スコット人」とが同化します。古アイルランド語で「荒らす」「略奪」を「スコティ」と呼んでいたことがスコット人の名称の由来です。彼らが住んだ地が、のちの「スコットランド」です</p>
+</div>
+</div>
+</blockquote>
+<ul class="contains-task-list">
+<li class="task-list-item"><input type="checkbox" disabled/> memo::</li>
+</ul>
+<hr/>
+<blockquote class="callout quote is-collapsible is-collapsed" data-callout="quote" data-callout-fold>
+<div class="callout-title">
+                  <div class="callout-icon"></div>
+                  <div class="callout-title-inner"><p>イングランドへの帰国の途中にとらえられ、アンジュー帝国を危険... </p></div>
+                  <div class="fold-callout-icon"></div>
+                </div>
+<div class="callout-content">
+<div class="callout-content-inner">
+
+<p>イングランドへの帰国の途中にとらえられ、アンジュー帝国を危険視する神聖ローマ皇帝ハインリヒ６世に引き渡されます。ハインリヒ６世は解放条件として、15万マルク（純銀にして35トン）、当時のイングランドの年間収入のおよそ３倍もの法外な身代金を要求しました。
+　この身代金を支払うために、奴隷以外の国民は年収の４分の１を納めるという税金が導入され、アンジュー帝国の領民が塗炭の苦しみをなめました。とりあえず10万マルクをハインリヒ６世に納めたことで、リチャード１世は解放されます。</p>
+</div>
+</div>
+</blockquote>
+<ul class="contains-task-list">
+<li class="task-list-item"><input type="checkbox" disabled/> memo::</li>
+</ul>
+<hr/>
+<blockquote class="callout quote is-collapsible is-collapsed" data-callout="quote" data-callout-fold>
+<div class="callout-title">
+                  <div class="callout-icon"></div>
+                  <div class="callout-title-inner"><p>これら七王国のうち、まずノーサンブリアが周辺国に侵攻して勢力... </p></div>
+                  <div class="fold-callout-icon"></div>
+                </div>
+<div class="callout-content">
+<div class="callout-content-inner">
+
+<p>これら七王国のうち、まずノーサンブリアが周辺国に侵攻して勢力を拡大させます。
+　６５５年のウィンウェドの戦いでは、キリスト教国であったノーサンブリアがマーシアを破り、キリスト教に改宗させます。この勝利をきっかけに、ブリテン島西部や南部にキリスト教が根づくことになりました。こうして、一時は七王国随一の強国となったノーサンブリアでしたが、内部紛争により８世紀後半には衰退します。
+　８世紀前半には、マーシアのエゼルバルド王が、教会や民衆へ増税を課し、国力を増強。一時、ウェセックスを支配し、エゼルバルド王は「南イングランドすべての者の王」を自称します。ところが、圧政が仇となり家臣に暗殺され、マーシアは内乱状態になりました。
+　この内乱を鎮め、８世紀後半にマーシアの王位を継いだのが、エゼルバルド王の従兄弟のオファ王です。オファ王は即位すると軍備を整え、他国に侵攻しました。エセックスとサセックスの２王家は滅び、ケントとイースト・アングリアの２王家は一時断絶します。残るウェセックスはマーシアの支配を受け入れました。
+「全アングルの王」を自称したオファ王は、イングランド初となる法典を制定し、共通硬貨である「銀ペニー貨」を鋳造しました。加えて、ブリテン島西部（現在のウェールズ）との境に土塁（オファの防塁）を築き、ブリトン人の侵攻から国土を守りました。オファ王は７９６年に亡くなります。
+　オファ王の亡きあとも力を有していたマーシアは、８２５年にウェセックスへ侵攻します。しかし、ウェセックスの王エグバートとの戦いで返り討ちにあい、マーシアはウェセックスの従属国となりました。
+　やがてエグバート王は、テムズ川以南の地を支配して、イングランドを統一しました。これが、事実上の初代イングランド王となります。
+　とはいえ、エグバート王はイングランド統一にはいたらず、称号もイングランド王でなくアングロ・サクソン諸族の王で最も勢力のある者という意味を持つ「覇王（ブレトワルダ）」であったともいわれています。</p>
+</div>
+</div>
+</blockquote>
+<ul class="contains-task-list">
+<li class="task-list-item"><input type="checkbox" disabled/> memo::</li>
+</ul>
+<hr/>
+<blockquote class="callout quote is-collapsible is-collapsed" data-callout="quote" data-callout-fold>
+<div class="callout-title">
+                  <div class="callout-icon"></div>
+                  <div class="callout-title-inner"><p>デーン人はウェセックスにも侵攻し、国の大半がその手に落ちま... </p></div>
+                  <div class="fold-callout-icon"></div>
+                </div>
+<div class="callout-content">
+<div class="callout-content-inner">
+
+<p>デーン人はウェセックスにも侵攻し、国の大半がその手に落ちます。そんな状況でウェセックスの王に即位したのが、エグバートの孫であるアルフレッドです。アルフレッド王はデーン人に何度か敗北しました。しかし反撃の機会をうかがい、各地に砦を築くと、周辺の農民を徴用して軍事力を強化。デーン人をまねて騎馬を活用します。加えて、マーシア王に娘を嫁がせ、手を結びました。
+　軍備増強のかいもあって、８７８年のエディントンの戦いでアルフレッド王はデーン人に大勝。８８６年にはデーン人に占拠されていたロンドンを奪い返しました。一方でマーシアはこれらの過程で滅亡し、とうとう七王国はウェセックスのみとなります。
+　アルフレッド王はデーン人を撃退し、島北東部に押し留めることに成功しましたが、追い出すまでにはいたりませんでした。アルフレッド王はデーン人と「ウェドモーワの和議」を結んで、デーン人の居住地域を、ロンドンの北方からヨークの南付近のデーンロウ地方に定めます。デーンロウとは、デーン人の法（ロウ）で統治される地域のことです。さらにデーン人をキリスト教に改宗させ、共存することに成功します。
+　デーン人が居住した地域は、ダービーやラグビーなどです。現在のイギリスで名前に「ｂｙ」とつく地域は、かつてデーン人が住んでいた土地だといわれています。</p>
+</div>
+</div>
+</blockquote>
+<ul class="contains-task-list">
+<li class="task-list-item"><input type="checkbox" disabled/> memo::</li>
+</ul>
+<hr/>
+<blockquote class="callout quote is-collapsible is-collapsed" data-callout="quote" data-callout-fold>
+<div class="callout-title">
+                  <div class="callout-icon"></div>
+                  <div class="callout-title-inner"><p>アングロ・サクソン人とは、ゲルマン系の「アングル人」「サクソ... </p></div>
+                  <div class="fold-callout-icon"></div>
+                </div>
+<div class="callout-content">
+<div class="callout-content-inner">
+
+<p>アングロ・サクソン人とは、ゲルマン系の「アングル人」「サクソン人」「ジュート人」の総称です。彼らは５世紀前半から約１５０年の間に、ブリテン島の豊かな土地を求め、ブリトン人を追い払い、土地を奪いました。一説に、彼らはブリトン人同士が争った際に傭兵として雇われ、そのまま住み着いたともいわれていま</p>
+</div>
+</div>
+</blockquote>
+<ul class="contains-task-list">
+<li class="task-list-item"><input type="checkbox" disabled/> memo::</li>
+</ul>
+<hr/>
+<blockquote class="callout quote is-collapsible is-collapsed" data-callout="quote" data-callout-fold>
+<div class="callout-title">
+                  <div class="callout-icon"></div>
+                  <div class="callout-title-inner"><p>７世前半にはブリトン人に代わって、アングロ・サクソン人がブリ... </p></div>
+                  <div class="fold-callout-icon"></div>
+                </div>
+<div class="callout-content">
+<div class="callout-content-inner">
+
+<p>７世前半にはブリトン人に代わって、アングロ・サクソン人がブリテン島の中部から東南部を支配するようになりました。このアングロ・サクソン人が支配する地域が「イングランド」と呼ばれるようになります。
+　イングランドとは「アングル人の土地」という意味を持ち、このときの支配に由来します。そのため、現代のスコットランドやウェールズ、北アイルランドの人々はイングランドを語源とする「イングリッシュ（英国人）」とひとくくりに呼ばれることを好みませ</p>
+</div>
+</div>
+</blockquote>
+<ul class="contains-task-list">
+<li class="task-list-item"><input type="checkbox" disabled/> memo::</li>
+</ul>
+<hr/>
+<blockquote class="callout quote is-collapsible is-collapsed" data-callout="quote" data-callout-fold>
+<div class="callout-title">
+                  <div class="callout-icon"></div>
+                  <div class="callout-title-inner"><p>第１次バロン戦争が終結し、ヘンリ３世は有力貴族と和平を結び... </p></div>
+                  <div class="fold-callout-icon"></div>
+                </div>
+<div class="callout-content">
+<div class="callout-content-inner">
+
+<p>第１次バロン戦争が終結し、ヘンリ３世は有力貴族と和平を結びました。有力貴族や聖職者は「諸侯大会議（パーラメント）」を開き、ジョン王の時代からの忠臣とともに、幼いヘンリ３世を支えます。
+　大陸の領地を失い、イングランド王がイングランド国内で政治を行うようになったことで、年４回、ウェストミンスターで定期的に諸侯大会議が開催されるようになります。この諸侯大会議が、現代のイングランド議会（パーラメント）の原型となりました。</p>
+</div>
+</div>
+</blockquote>
+<ul class="contains-task-list">
+<li class="task-list-item"><input type="checkbox" disabled/> memo::</li>
+</ul>
+<hr/>
+<blockquote class="callout quote is-collapsible is-collapsed" data-callout="quote" data-callout-fold>
+<div class="callout-title">
+                  <div class="callout-icon"></div>
+                  <div class="callout-title-inner"><p>イングランド王ハロルド２世に勝利したノルマンディー公ギョーム... </p></div>
+                  <div class="fold-callout-icon"></div>
+                </div>
+<div class="callout-content">
+<div class="callout-content-inner">
+
+<p>イングランド王ハロルド２世に勝利したノルマンディー公ギョームの軍は、勢いそのままに各都市を占拠し、ついにはロンドンを制圧します。そして１０６６年12月25日、ギョームはウェストミンスター寺院で戴冠式を行い、ウィリアム１世としてイングランド王に即位しました。ここから「ノルマン朝」がはじまります。
+　なおノルマン朝より、王の名前に「１世」「２世」とつけるのが慣例となりました。
+　ノルマン人であるウィリアム１世がイングランドを征服し、王となったできごとは「ノルマン・コンクエスト（ノルマン人の征服）」と呼ばれます。これ以降、ドーバー海峡を越えて侵攻し、ブリテン島を征服した民族はいません。
+　ノルマン朝のはじまりはイングランドの転換点といえます。第一に、それまでのデーン朝時代の北欧の国ぐにとの密接な関係は薄れ、フランス王国やイタリア王国とつながりを持つようになりました。アングロ・サクソン人貴族の土地はほとんど没収され、ノルマン人貴族に与えられます。加えて、国内の高位聖職者の多くが、フランスやイタリアから招かれました。
+　第二に、ウィリアム１世は世界初の土地台帳を作成しました。これは、ノルマン人貴族が新たに所有する土地の状況の調査と、土地にかかる税金を効率よく徴収するためといわれています。ウィリアム１世は貴族に土地を与えることで忠誠を誓わせ、戦争の際に兵を供出させるという、いわゆる封建制を確立します。
+　第三に、フランス文化の流入です。ドイツ語に近かった当時の英語に、ノルマン人のフランス語由来の言葉が導入されました。たとえば「ポーク」や「ビーフ」などの単語がそうです。フランス語はイングランド上流階級の公用語となり、平民はこれまでどおり英語を話しました。14世紀にはじまる百年戦争まで、フランス語は上流階級の公用語だったのです。
+　都市には、堅牢な石造りが特徴のノルマン様式の建築物がつくられました。当初は城塞として築かれ、のちに監獄となるロンドン塔や、ダラム大聖堂が代表的な建物です。
+　自分たちの社会がフ</p>
+</div>
+</div>
+</blockquote>
+<ul class="contains-task-list">
+<li class="task-list-item"><input type="checkbox" disabled/> memo::</li>
+</ul>
+<hr/>
+<blockquote class="callout quote is-collapsible is-collapsed" data-callout="quote" data-callout-fold>
+<div class="callout-title">
+                  <div class="callout-icon"></div>
+                  <div class="callout-title-inner"><p>イギリスという国家は、複数の国が時代とともに集まってできま... </p></div>
+                  <div class="fold-callout-icon"></div>
+                </div>
+<div class="callout-content">
+<div class="callout-content-inner">
+
+<p>イギリスという国家は、複数の国が時代とともに集まってできました。そのことは式典などの国事行為で使われる国旗からも見てとれます。イギリスの国旗は「ユニオンフラッグ」、または「ユニオンジャック（Union Jack）」と呼ばれています。「ユニオン」は「連合」、「ジャック」は「船首に掲げて国籍を示す旗」を意味します。
+　複数の旗が１つになることで、ユニオンジャックはできています。最初は「白地に赤十字の聖ジョージ旗」というイングランド旗だけでした。その後、「青地に白のＸ字型十字の聖アンドルー旗」というスコットランド旗が合わさります。そして最後に「白地に赤のＸ字型十字の聖パトリック旗」というアイルランド旗が合流しました。
+「あれっ、ウェールズは？」と思うかもしれません。ウェールズがイングランドに併合されたのは、ほかの２カ国よりもずっと古く、イングランドの旗ができる前からイングランドの一部と考えられていたからです。そんなウェールズの旗は、１９５９年になって、ようやくつくられました。</p>
+</div>
+</div>
+</blockquote>
+<ul class="contains-task-list">
+<li class="task-list-item"><input type="checkbox" disabled/> memo::</li>
+</ul></article><hr/><div class="page-footer"></div></div><div class="right sidebar"></div><footer class><p>作成 <a href="https://quartz.jzhao.xyz/">Quartz v4.5.1</a> © 2026</p><ul><li><a href="https://github.com/jackyzha0/quartz">GitHub</a></li><li><a href="https://discord.gg/cRFFHYye7t">Discord Community</a></li></ul></footer></div></div></body><script type="application/javascript">function n(){let t=this.parentElement;t.classList.toggle("is-collapsed");let e=t.getElementsByClassName("callout-content")[0];if(!e)return;let l=t.classList.contains("is-collapsed");e.style.gridTemplateRows=l?"0fr":"1fr"}function c(){let t=document.getElementsByClassName("callout is-collapsible");for(let e of t){let l=e.getElementsByClassName("callout-title")[0],s=e.getElementsByClassName("callout-content")[0];if(!l||!s)continue;l.addEventListener("click",n),window.addCleanup(()=>l.removeEventListener("click",n));let o=e.classList.contains("is-collapsed");s.style.gridTemplateRows=o?"0fr":"1fr"}}document.addEventListener("nav",c);
+</script><script type="module">function f(i,e){if(!i)return;function r(o){o.target===this&&(o.preventDefault(),o.stopPropagation(),e())}function t(o){o.key.startsWith("Esc")&&(o.preventDefault(),e())}i?.addEventListener("click",r),window.addCleanup(()=>i?.removeEventListener("click",r)),document.addEventListener("keydown",t),window.addCleanup(()=>document.removeEventListener("keydown",t))}function y(i){for(;i.firstChild;)i.removeChild(i.firstChild)}var h=class{constructor(e,r){this.container=e;this.content=r;this.setupEventListeners(),this.setupNavigationControls(),this.resetTransform()}isDragging=!1;startPan={x:0,y:0};currentPan={x:0,y:0};scale=1;MIN_SCALE=.5;MAX_SCALE=3;cleanups=[];setupEventListeners(){let e=this.onMouseDown.bind(this),r=this.onMouseMove.bind(this),t=this.onMouseUp.bind(this),o=this.resetTransform.bind(this);this.container.addEventListener("mousedown",e),document.addEventListener("mousemove",r),document.addEventListener("mouseup",t),window.addEventListener("resize",o),this.cleanups.push(()=>this.container.removeEventListener("mousedown",e),()=>document.removeEventListener("mousemove",r),()=>document.removeEventListener("mouseup",t),()=>window.removeEventListener("resize",o))}cleanup(){for(let e of this.cleanups)e()}setupNavigationControls(){let e=document.createElement("div");e.className="mermaid-controls";let r=this.createButton("+",()=>this.zoom(.1)),t=this.createButton("-",()=>this.zoom(-.1)),o=this.createButton("Reset",()=>this.resetTransform());e.appendChild(t),e.appendChild(o),e.appendChild(r),this.container.appendChild(e)}createButton(e,r){let t=document.createElement("button");return t.textContent=e,t.className="mermaid-control-button",t.addEventListener("click",r),window.addCleanup(()=>t.removeEventListener("click",r)),t}onMouseDown(e){e.button===0&&(this.isDragging=!0,this.startPan={x:e.clientX-this.currentPan.x,y:e.clientY-this.currentPan.y},this.container.style.cursor="grabbing")}onMouseMove(e){this.isDragging&&(e.preventDefault(),this.currentPan={x:e.clientX-this.startPan.x,y:e.clientY-this.startPan.y},this.updateTransform())}onMouseUp(){this.isDragging=!1,this.container.style.cursor="grab"}zoom(e){let r=Math.min(Math.max(this.scale+e,this.MIN_SCALE),this.MAX_SCALE),t=this.content.getBoundingClientRect(),o=t.width/2,n=t.height/2,c=r-this.scale;this.currentPan.x-=o*c,this.currentPan.y-=n*c,this.scale=r,this.updateTransform()}updateTransform(){this.content.style.transform=`translate(${this.currentPan.x}px, ${this.currentPan.y}px) scale(${this.scale})`}resetTransform(){this.scale=1;let e=this.content.querySelector("svg");this.currentPan={x:e.getBoundingClientRect().width/2,y:e.getBoundingClientRect().height/2},this.updateTransform()}},C=["--secondary","--tertiary","--gray","--light","--lightgray","--highlight","--dark","--darkgray","--codeFont"],E;document.addEventListener("nav",async()=>{let e=document.querySelector(".center").querySelectorAll("code.mermaid");if(e.length===0)return;E||=await import("https://cdnjs.cloudflare.com/ajax/libs/mermaid/11.4.0/mermaid.esm.min.mjs");let r=E.default,t=new WeakMap;for(let n of e)t.set(n,n.innerText);async function o(){for(let s of e){s.removeAttribute("data-processed");let a=t.get(s);a&&(s.innerHTML=a)}let n=C.reduce((s,a)=>(s[a]=window.getComputedStyle(document.documentElement).getPropertyValue(a),s),{}),c=document.documentElement.getAttribute("saved-theme")==="dark";r.initialize({startOnLoad:!1,securityLevel:"loose",theme:c?"dark":"base",themeVariables:{fontFamily:n["--codeFont"],primaryColor:n["--light"],primaryTextColor:n["--darkgray"],primaryBorderColor:n["--tertiary"],lineColor:n["--darkgray"],secondaryColor:n["--secondary"],tertiaryColor:n["--tertiary"],clusterBkg:n["--light"],edgeLabelBackground:n["--highlight"]}}),await r.run({nodes:e})}await o(),document.addEventListener("themechange",o),window.addCleanup(()=>document.removeEventListener("themechange",o));for(let n=0;n<e.length;n++){let v=function(){let g=l.querySelector("#mermaid-space"),m=l.querySelector(".mermaid-content");if(!m)return;y(m);let w=c.querySelector("svg").cloneNode(!0);m.appendChild(w),l.classList.add("active"),g.style.cursor="grab",u=new h(g,m)},M=function(){l.classList.remove("active"),u?.cleanup(),u=null},c=e[n],s=c.parentElement,a=s.querySelector(".clipboard-button"),d=s.querySelector(".expand-button"),p=window.getComputedStyle(a),L=a.offsetWidth+parseFloat(p.marginLeft||"0")+parseFloat(p.marginRight||"0");d.style.right=`calc(${L}px + 0.3rem)`,s.prepend(d);let l=s.querySelector("#mermaid-container");if(!l)return;let u=null;d.addEventListener("click",v),f(l,M),window.addCleanup(()=>{u?.cleanup(),d.removeEventListener("click",v)})}});
+</script><script src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/copy-tex.min.js" type="application/javascript"></script><script type="application/javascript">
+        const socket = new WebSocket('ws://localhost:3001')
+        // reload(true) ensures resources like images and scripts are fetched again in firefox
+        socket.addEventListener('message', () => document.location.reload(true))
+      </script><script src="./postscript.js" type="module"></script></html>

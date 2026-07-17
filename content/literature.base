@@ -1,0 +1,11 @@
+views:
+  - type: table
+    name: Table
+    filters:
+      and:
+        - file.folder.startsWith("x/_literature_notes")
+    order:
+      - file.name
+    sort:
+      - property: file.backlinks
+        direction: ASC
