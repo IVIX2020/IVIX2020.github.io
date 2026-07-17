@@ -4,6 +4,8 @@ on:
   push:
     branches: [ main ]
   workflow_dispatch:
+  schedule:
+    - cron: '0 0 * * *' # 毎日0時(UTC)に自動チェック＆更新
 
 permissions:
   contents: read
@@ -18,17 +20,42 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout Quartz Repository
+        uses: actions/checkout@v4
+
+      - name: Checkout Obsidian Zettelkasten Inbox
+        uses: actions/checkout@v4
         with:
-          fetch-depth: 0
-      - uses: actions/setup-node@v4
+          repository: 'IVIX2020/zettelkasten'
+          path: 'temp_zettelkasten'
+          sparse-checkout: |
+            01_Inbox
+          sparse-checkout-cone-mode: false
+          token: ${{ secrets.GH_PAT || github.token }}
+
+      - name: Setup Content Directory from Inbox
+        run: |
+          rm -rf content
+          mkdir -p content
+          cp -R temp_zettelkasten/01_Inbox/* content/
+          rm -rf temp_zettelkasten
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
         with:
-          node-version: '22'      # ★ Node 22 系に
+          node-version: '22'
           check-latest: true
-      - run: npm i -g npm@latest  # ★ npm も 10.9.2+ に
-      - run: npm ci || npm install
-      - run: npx quartz build
-      - uses: actions/upload-pages-artifact@v3
+
+      - name: Install Dependencies
+        run: |
+          npm i -g npm@latest
+          npm ci || npm install
+
+      - name: Build Quartz Site
+        run: npx quartz build
+
+      - name: Upload Pages Artifact
+        uses: actions/upload-pages-artifact@v3
         with:
           path: public
 
